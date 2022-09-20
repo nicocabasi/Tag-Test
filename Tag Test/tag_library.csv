@@ -1,0 +1,1572 @@
+label,name,type
+Is the Temporary (Global) Note exchangeable for a Permanent (Global) Note?,form_of_the_notes_bearer_temp_for_perm_exchange_required,boolean
+"For this Tap that Has a Broken Amount, is the Settlement Date Before the First Coupon Date?",taps_broken_amount_settlement_date_is_before_first_coupon,boolean
+Listing Expenses to be Paid by,listing_expenses_paid_by,char
+Calculation and Delivery Agent for Physical Settlement,physical_settlement_calculation_delivery_agent,text
+Specific Consent Applicable?,specific_consent_required,boolean
+Calculation Amount Required?,calculation_amount_required,boolean
+Residual Maturity Call Par Call Date,residual_maturity_par_call_date,date
+Retail Sales to UK Prohibition Applicable?,mifid_retail_sales_to_uk_prohibition_required,boolean
+WKN Code Required?,wkn_code_required,boolean
+Relevant Time,floating_business_days_for_fixing_timeplace,text
+Events of Default Required?,events_of_default_required,boolean
+Borrower Signatory Email,signatory_email_borrower,char
+Relevant Inter-Bank Market,floating_relevant_inter_bank_market,text
+Net Proceeds Recipient Account Number,net_proceeds_recipient_account_number,char
+Approval Type,mifid_approval_type,char
+Maximum Allowed Denomination,min_denom_notional_max,integer
+Dealer Agreement Date,dealer_agreement_date,date
+Date from which a Number of Business Days are deducted to arrive at the Interest Determination Date,floating_interest_fixing_reference_date,char
+Floating Reference Banks Required?,floating_reference_banks_required,boolean
+Record Date for Approval by Guarantor Board,approval_guarantor_board_record_date,date
+Issuance Category,issuance_category,char
+Business Day Adjustment,extended_business_day_adjustment,text
+Early Redemption Amount Calculation,early_redemption_amount_calculation,text
+LEI,issuer_lei,char
+Payment Frequency,extended_floating_payment_frequency,char
+Commission Percentage (%),commission_percentage,decimal
+Swap 3 Upfront Payer,swap_upfront_payer_3,char
+Counterparty A Pays Payment Delay Days,swap_counterparty_a_pays_payment_delay_days_2,integer
+Early Redemption for Tax Reasons,early_redemption_tax_details,text
+Additional Canadian Selling Restrictions Required?,additional_canadian_selling_restrictions_required,boolean
+Initial Form of Global Note,form_of_the_notes_initial_physical_form,char
+Basis Type,extended_floating_basis_type,char
+BMR Spread,bmr_spread,decimal
+Payment Time and Place,syndicated_payment_timeplace,char
+Appointment of a Holders' Representative in the Conditions,german_bond_act_holders_representative_in_conditions_required,boolean
+ISIN,isin_code,char
+Index Determination Days,floating_overnight_index_determination_days,integer
+WKN,wkn_code,char
+Field 56,payment_instructions_field_56,char
+Floating Margin greater than or equal to Zero?,floating_margin_gte_zero,boolean
+Restricted Events of Default Applicable?,sp_restricted_eod_required,boolean
+Allotments,syndicated_joint_lead_managers_allotments,decimal_list
+Commisions,syndicated_co_lead_managers_commissions,decimal_list
+Common Safekeeper,clearing_common_safekeeper,char
+Split Selling and M&U Commision?,commission_split_required,boolean
+Issuer Party Pays First Interest Payment Date,swap_counterparty_a_first_interest_payment_date_1,date
+Swap Counterparty Account Number for Bond Leg Currency,swap_counterparty_fx_base_account_number_1,char
+Counterparty A (issuer) Pays Business Days for Payment,swap_counterparty_a_business_days_for_payment_1,text_list
+Syndicate Roles,syndicated_dealers_roles,text_list
+Reset Margin 2,reset_margin_2,decimal
+Early Redemption Amount (per Calculation Amount),early_redemption_amount,decimal
+Expected Ratings of the Notes (Scope),expected_rating_scope_rating,char
+ISDA Successor Benchmark Date,floating_isda_successor_benchmark_date,date
+Internal Swap Business Days,internal_swap_counterparty_a_pays_business_day_convention_1,text
+Early Termination Amount,early_termination_amount,decimal
+Coupon C Amount,coupon_c_amount,decimal
+Coupon A Amount,coupon_a_amount,decimal
+Trigger Prices by Date,trigger_prices_by_date,json
+Joint-Lead Manager,joint_lead_manager,char
+"For this Tap that Has a Broken Amount, is the Settlement Date Before the Last Coupon Date?",taps_broken_amount_settlement_date_is_before_last_coupon,boolean
+Target Market Investment Horizon,target_market_investment_horizon,char
+Additional Financial Centres,additional_financial_centres,text_list
+Specified Period,floating_specified_period,text
+Relevant Time,floating_business_days_for_fixing_time,char
+Additional Risk Factors Required?,additional_risk_factors_required,boolean
+Relevant Screen Page,floating_basis_screen_rate_page,char
+Lead Manager and Sole Bookrunner,syndicated_lead_manager_sole_bookrunner,char
+RMB Settlement Centres Required?,rmb_settlement_centres_required,boolean
+Certificate Number Required?,certificate_number_required,boolean
+General Consent Applicable?,general_consent_required,boolean
+Relevant Screen Rate Source,floating_basis_screen_rate_source,char
+Additional Business Centres,additional_business_centres,text_list
+Issuing and Paying Agent is Registrar?,issuing_and_paying_agent_is_registrar,boolean
+Include Clause Relating to Manager being Central Point with regard to Regulatory Technical Standards for the Conditions Applicable to Buy-Back Programmes and Stabilisation Measures?,syndicated_stabilizing_managers_central_point_required,boolean
+Soulte (Refund of Interest),soulte_balancing_payment,decimal
+Net Proceeds Recipient Correspondent BIC,net_proceeds_recipient_correspondent_bic,char
+Dealer Contact Email,dealer_legal_email,char
+All-in Issuer Spread vs. Benchmark,all_in_issuer_spread_vs_benchmark,decimal
+Relevant Benchmark Base,extended_floating_relevant_benchmark_base,char
+Fixed Rate Spread,fixed_rate_spread,decimal
+Pricing Date,pricing_date,date
+Form of Dematerialised Notes,form_of_dematerialised_notes,text
+Status of the Notes,status_of_the_notes,text
+Fallback Provisions for Physical Settlement,physical_settlement_fallback_provisions,docx
+Applicable UK Benchmark Register,floating_relevant_benchmark_uk_register,text
+Term of the Floating Basis (months),floating_basis_term,integer
+Form Of The Notes Registered,form_of_the_notes_registered,text
+Field 57,payment_instructions_field_57,char
+Majority Required (%),german_bond_act_alternative_majority,decimal
+Par Call Commencement Date Required?,issuer_call_par_call_commencement_date_required,boolean
+Swap 3 Upfront Payment Currency,swap_upfront_payment_currency_3,char
+Observation Method,floating_sonia_observation_method,text
+RMB Settlement Centres,rmb_settlement_centres,text_list
+Delivery,delivery,text
+Time and Place of Fixing,swap_counterparty_a_pays_business_days_for_fixing_timeplace_1,char
+Tax Gross Up Condition,tax_gross_up_condition,char
+Masse Representative Name and Address,french_governing_law_masse_representative_name_address,text
+Commission Percentage Per Annum (%),commission_percentage_per_annum,decimal
+Does this trade require a Joint-Lead Manager?,joint_lead_manager_required,boolean
+Do Managers Procure Subscription and Payment Ahead of Subscribing and Paying?,syndicated_managers_procure_subscription,boolean
+SEDOL,sedol_code,char
+Fixed Coupon Amount Required?,fixed_coupon_amount_required,boolean
+Field 58,payment_instructions_field_58,char
+Form Of The Bearer Notes,form_of_the_notes_bearer_dnb_bank,text
+Deemed Interest Commencement Date,broken_amount_deemed_interest_commencement_date,date
+Issuer Pays Observation Method,swap_counterparty_a_pays_basis_observation_method_2,char
+Benchmark Administrator In Scope Of Regulation?,floating_relevant_benchmark_administrator_in_scope_of_regulation,boolean
+Commissions,syndicated_senior_co_lead_managers_commissions,decimal_list
+Commissions,syndicated_joint_lead_managers_commissions,decimal_list
+MiFID Manufacturers,syndicated_mifid_manufacturers,boolean
+All-In Issuer Spread (bps),all_in_issuer_spread,decimal
+M&U Commission Percentage (%),commission_underwriting_percentage,decimal
+CFI,cfi_code,char
+Guarantor Board Approval Date(s),guarantor_board_approval_dates,date_list
+Guarantor Rating,guarantor_rating,text_list
+Counterparty A (issuer) Pays Business Days for Payment,swap_counterparty_a_business_days_for_payment_2,text_list
+Dealer Legal Team,dealer_legal_team,char
+Distribution Manager,distribution_manager,char
+Guarantor Rating Outlook (DBRS),guarantor_rating_dbrs_outlook,char
+ISDA Additional Business Days Required?,floating_isda_additional_business_days_required,boolean
+Reset Benchmark Reference Rate Details,reset_benchmark_reference_rate_details,char
+Early Redemption Amount Applicable?,early_redemption_amount_required,boolean
+Early Redemption Amount Applicable?,early_redemption_amount_required,boolean
+Display Early Redemption Amount Calculation?,early_redemption_amount_calculation_required,boolean
+Original Issue Settlement Date,taps_original_issue_settlement_date,date
+Target Market Investment Objective,target_market_investment_objective,char
+Syndication Agreement Date,syndication_agreement_date,date
+Programme Limit,programme_limit,integer
+Rating Type,ratings_type,text
+Manager Signature Settings,syndicated_signature_statuses,text_list
+Signatory Contact Phone,signatory_contact_phone,char
+Additional Risk Factors,additional_risk_factors,docx
+Credit AN,lettre_comptable_credit_an,char
+Net Proceeds Recipient Correspondent Bank,net_proceeds_recipient_correspondent_bank,char
+Form of the Registered Notes,form_of_the_notes_registered,text
+SOFR Rate Cut-Off Date,floating_sofr_rate_cut_off_date_days,text
+Form Of The Notes,form_of_the_notes_registered_dnb_bank,text
+Par Call Commencement Date,issuer_call_par_call_commencement_date,date
+Settlement Window (business days),settlement_window_business_day_count,integer
+Issuer Call Redemption in Part Minimum Periods Day Type,issuer_call_redeemable_in_part_minimum_period_days_type,text
+Listing Date,listing_date,date
+Benchmark Price (%),benchmark_price,decimal
+Tenor,tenor,char
+Dealer Contact Role,dealer_contact_role,char
+"In the event of a Benchmark Event, Rate to be Used",floating_benchmark_event_prior_to_interest_period_rate,decimal
+Zero Day Count Fraction Early Redemption,zero_day_count_fraction_early_redemption,char
+Addresses of the New Dealers,new_dealers_addresses,text_list
+VPS Identification Number,vps_identification_number,text
+Loss Absorption,snp_loss_absorption_text,text
+Additional Financial Centres Required?,additional_financial_centres_required,boolean
+Swap 3 Upfront Payment Notional,swap_upfront_payment_notional_3,decimal
+Floating ISDA Benchmarks Supplement,floating_isda_benchmarks_supplement,boolean
+Swap Calculation Agent Required?,swap_calculation_agent_required,boolean
+Relevant Inter-Bank Market,extended_floating_relevant_inter_bank_market,char
+Publication of Notes on Clearing System Required?,clearing_system_publication_required,boolean
+Issuer Call Optional Redemption Valuation Dates,issuer_call_optional_redemption_valuation_dates,date_list
+Relevant Screen Page,extended_floating_basis_screen_rate_page,text
+Are any of the Managers New Dealers to the Programme?,syndicated_managers_new_dealers,boolean
+Allotments,syndicated_co_lead_managers_allotments,decimal_list
+Early Redemption Events,snp_early_redemption_events,text
+Amortization Yield Condition 6ii Applicable?,zero_amortization_yield_condition_6ii_applicable,boolean
+Field 58 Required?,payment_instructions_field_58_required,boolean
+Additional Selling Restrictions,additional_selling_restrictions,docx
+Settlement Type,settlement_type,char
+Trade Reference,internal_trade_reference,char
+Events of Default,events_of_default,text
+Dealer Domicile Country,dealer_country,char
+SMR Spread,smr_spread,decimal
+Counterparty A (issuer) Pays Business Days for Payment,swap_counterparty_a_business_days_for_payment_3,text_list
+Business Day Convention,extended_business_day_convention,text
+Issuer Pays Observation Method,swap_counterparty_a_pays_basis_observation_method_1,char
+Payment Instructions Fav,payment_instructions_fav,char
+Mid Swap Reference Rate,mid_swap_reference_rate,char
+Issuer Clearing Account Number,issuer_clearing_account,char
+Guarantor Rating Outlook (Scope),guarantor_rating_scope_outlook,char
+Swap Confirmation Party A Reset Language required?,swap_confirmation_party_a_reset_language_required,boolean
+ISDA Successor Benchmark Required?,floating_isda_successor_benchmark_required,boolean
+Counterparty A Pays Linear Interpolation,swap_counterparty_a_pays_linear_interpolation_required_3,boolean
+Final Redemption Amount (per Calculation Amount),final_redemption_amount,decimal
+Interest Disclaimer,interest_disclaimer,text
+Is There a Second Coupon Type?,coupon_type_2_required,boolean
+Trigger and Knockout Prices by Date,trigger_and_knockout_prices_by_date,json
+Manager Legal Names,syndicated_managers_legal_names,text_list
+Observation Look-Back Period,floating_sonia_observation_look_back_period,integer
+MREL/TLAC Disqualification Event Call Option Applicable?,mrel_tlac_disqualification_event_call_option_required,boolean
+Target Market Knowledge & Experience,target_market_knowledge_and_experience,char
+Syndication Agreement Date Required?,syndication_agreement_date_required,boolean
+Programme Currency,programme_currency,char
+Is the Issue Expected to be Offered or Sold in the Unites States?,us_selling_expected,boolean
+Relevant Benchmark Transitional Provisions Apply?,floating_relevant_benchmark_transitional_provisions_apply,boolean
+Listing Expenses Currency,listing_expenses_currency,char
+Issuing Entity,issuer,char
+Dealer,dealer,text
+Expenses Paid By Issuer?,expenses_paid_by_issuer,boolean
+Negative Pledge Details,negative_pledge_details,text
+Signatory Email,signatory_email,char
+Day Count Fraction,extended_day_count_fraction,text
+Annual Interest Payment Dates,annual_interest_payment_dates,date_list_no_year
+Benchmark Reference,benchmark_reference,char
+Broken Amount Applicable?,broken_amount_required,boolean
+Latest Possible Closing Date,latest_possible_closing_date,date
+Substitution and Variation,snp_substitution_and_variation,text
+"In the event of a Benchmark Event prior to the commencement of the first Interest Period, Will the Rate used be the Original Benchmark Rate on the last day preceding the Interest Determination Date?",floating_benchmark_event_uses_original_rate,boolean
+Issuer Location,issuer_location,char
+Counterparty A Pays Lookback Period,swap_counterparty_a_pays_period_p_3,integer
+Time and Place of Fixing,swap_counterparty_a_pays_business_days_for_fixing_timeplace_3,char
+Multiple Denominations Required?,min_denom_multiple,boolean
+CMU Lodging Agent,cmu_lodging_agent,char
+Payment Frequency,floating_overnight_payment_frequency,char
+Guarantor,guarantor,char
+Conditions Precedent Required?,syndicated_conditions_precedent_required,boolean
+IBAN,payment_instructions_iban,char
+Retail Sales to EEA Prohibition Applicable?,mifid_retail_sales_to_eea_prohibition_required,boolean
+Tracker Rate Spread,tracker_rate_spread,decimal
+Issuer Party Pays Calculation Type,swap_counterparty_a_pays_basis_calculation_type_1,char
+Mid Swap Spread (bps),mid_swap_spread,decimal
+All Interest Payment Dates,all_interest_payment_dates,date_list
+Designated Maturity,floating_screen_rate_designated_maturity,text
+Telephone numbers of New Dealers,new_dealers_telephones,text_list
+Broken Amount Type,broken_amount_type,text
+Lead Manager and Sole Bookrunner Applicable?,syndicated_lead_manager_sole_bookrunner_required,boolean
+Swap Issuer Entity,swap_issuer_entity_1,char
+€STR Observation Look-Back Period,floating_estr_observation_look_back_period,text
+Net Proceeds Recipient Account Sortcode,net_proceeds_recipient_account_sortcode,char
+Reset Benchmark Reference Rate Required?,reset_benchmark_reference_rate_required,boolean
+Green Bond Reviewer,green_bond_reviewer_text,text
+Guarantor Rating (Scope),guarantor_rating_scope_rating,char
+Swap Confirmation Party A Reset Language,swap_confirmation_party_a_reset_language,text
+Registration of the Bearer Notes in the State Debt Register Required?,registration_state_debt_register_required,boolean
+First Interest Payment Date,first_interest_payment_date,date
+Zero Amortization Yield,zero_amortization_yield,decimal
+S&P Rating,ratings_sp_rating,text
+Call Features,issuer_call_features,text_list
+ISDA Fixing Business Day,floating_isda_fixing_day,char
+Coupon B Amount,coupon_b_amount,decimal
+Deliverable Numbers of Shares,deliverable_numbers,integer_list
+Interest Commencement Date,interest_commencement_date,date
+Display Product Rating?,product_rating_required,boolean
+Coupon B Rate,coupon_b_rate,decimal
+Will the Issuer be providing a legal opinion?,issuer_opinion_exists,boolean
+Redemption condition,redemption_condition,text
+Is capital event notice period as per condition,is_capital_event_notice_period_as_per_condition,boolean
+Manager Local Counsel Required on Trade?,legal_manager_local_counsel_required,boolean
+Fax numbers of the (Joint) Lead Manager(s),manager_fax,text_list
+Clean-up Redemption Option Details,clean_up_redemption_option_details,text
+Broken Amount Payment Date,broken_amount_payment_date,date
+Target Market Loss-Bearing Capacity,target_market_loss_bearing_capacity,char
+Display Total Expenses?,total_expenses_required,boolean
+Early Redemption Features Required?,issuer_call_features_required,boolean
+Is the Dealer the Purchaser of the Issue?,dealer_is_purchaser,boolean
+Observation Shift Days Required?,floating_observation_shift_days_required,boolean
+Taux Effectif Global (%),taux_effectif_global,decimal
+Waiver of Set-Off,snp_waiver_of_set_off,text
+Redemption Amount in the event of an MREL Disqualification Event,mrel_tlac_disqualification_event_redemption_amount,decimal
+Reoffer Spread to Benchmark (bps),reoffer_spread_to_benchmark,decimal
+# of Co-Lead Managers,syndicated_co_lead_manager_counter,integer
+Interest Determination Dates,extended_floating_screen_rate_determination_dates_text,text
+Floating Overnight Observation Date,floating_overnight_observation_date,date
+Issuer Pays Calculation Type,swap_counterparty_a_pays_basis_calculation_type_2,char
+Issuer Pays Observation Method,swap_counterparty_a_pays_basis_observation_method_3,char
+Bank Name for Payment,payment_instructions_account_bank,char
+Swap Basis Term (months),swap_counterparty_a_pays_basis_term_2,integer
+Prior approval of the Relevant Regulator for Senior Preferred Notes?,sp_prior_regulator_approval_required,boolean
+Condition 2(a) or Condition 2(b) is Governed by French Law?,governing_law_condition_2ab,char
+Floating Basis Term,extended_floating_basis_term,integer
+Settlement Time and Place,syndicated_settlement_timeplace,char
+Other Place/Medium of Publication,additional_publication_location,char
+Interest Basis,floating_basis,text
+Type of Early Redemption Tax Amount,early_redemption_amount_tax_type,char
+Floating Rate Replacement Provisions,floating_overnight_replacement_provisions,docx
+Make-Whole Fallback Provisions,make_whole_fallback_provisions,docx
+Lead Manager/Joint Lead Managers Required?,syndicated_joint_lead_managers_required,boolean
+Exchange rate at which the currency is being converted into the programme's base currency,size_conversion_rate,decimal
+Fax numbers of New Dealers,new_dealers_fax,text_list
+Swap Issuer Entity,swap_issuer_entity_2,char
+Reset Relevant Financial Centre for Fixing,reset_relevant_financial_centre_for_fixing,char
+Issuer Rating Outlook (Scope),issuer_rating_scope_outlook,char
+Is redemption following capital event,is_redemption_following_capital_event,boolean
+Which forms of Global Certificate will be issued?,global_certificate_types,char
+ISDA Determination Method,floating_isda_determination_method,char
+Coupon A Broken Amount,coupon_a_broken_amount,decimal
+Linked Equities,equities_basket,text_list
+Knock-out Prices by Date,knockout_prices_by_date,json
+€STR Observation Method,floating_estr_observation_method,text
+Display Expected Ratings of the Notes?,expected_rating_required,boolean
+Indices Basket Exchanges,indices_basket_exchanges,text_list
+Who is the Managers' Local Counsel?,legal_manager_local_counsel,text
+Which legal opinions will be provided?,legal_opinions,text_list
+Yield at Issue Price,yield_at_issue_price,decimal
+Clearing Systems,clearing_systems,text_list
+Is a Disclaimer section required in the Final Term?,final_terms_disclaimer_required,boolean
+Coupons,coupons,text_list
+Governing Law Exceptions Applicable?,governing_law_exceptions_required,boolean
+Swift Code,payment_instructions_swift_code,char
+Attention details of the (Joint) Lead Manager(s),manager_attention,text_list
+All Knock-out Dates,all_knock_out_dates,date_list
+Receiving Banks,receiving_bank,char
+What is the Settlement Manager's short name?,settlement_manager_short_name,char
+Counterparty A Book,book_counterparty_a,char
+Trade is Quanto?,swap_quanto_required,boolean
+Coupon A Rate,coupon_a_rate,decimal
+Funding Notional,funding_notional,decimal
+Party A Floating Designated Maturity,swap_counterparty_a_floating_designated_maturity,char
+Counterparty B pays Day Count Fraction,swap_counterparty_b_pays_day_count_fraction_1,char
+Is Anna Applicable?,is_anna_applicable,boolean
+Is the Broken Amount Applicable on the Swap?,broken_amount_applicable_on_swap_1,boolean
+Counterparty A (issuer) Pays Margin (bps),swap_counterparty_a_pays_floating_margin_1,decimal
+Refer to the CFI Code on the ANNA website?,cfi_code_anna_website_required,boolean
+Coupon C Rate,coupon_c_rate,decimal
+Put Option Applicable?,put_option_required,boolean
+Target Market Special Requirements,target_market_special_requirements,char
+RMB Currency Event Applicable?,rmb_currency_event_required,boolean
+Total Expenses Amount,total_expenses_amount,decimal
+Currency,currency,text
+Additional Paying Agents Applicable?,additional_paying_agents_required,boolean
+Negative Pledge Details Required?,negative_pledge_details_required,boolean
+Increment,increment,integer
+Net Proceeds Recipient Account Name,net_proceeds_recipient_account_name,char
+Statutory Write Down and Conversion,statutory_write_down_and_conversion,text
+Mid-swap Yield (%),mid_swap_yield,decimal
+Display MIFIR disclaimer?,mifir_disclaimer_required,boolean
+Dealers,syndicated_dealers,text_list
+Currency of the Make-Whole Pricing Benchmark Security,make_whole_reference_currency,char
+Additional Terms Applicable?,additional_terms_required,boolean
+Relevant Benchmark Appears in ESMA/FCA Register?,extended_floating_relevant_benchmark_appears,boolean
+"Common Depositary for Euroclear Bank and Clearstream Banking, S.A.",clearing_common_depo_euroclear_bank_and_clearstream_banking_required,boolean
+All-in Spread vs. Mid Swap (bps),all_in_spread_vs_mid_swap,decimal
+Floating Payment Delay Days,floating_overnight_payment_delay_days,integer
+Swap Calculation Agent,swap_calculation_agent,char
+Early Redemption Price (%),early_redemption_price,decimal
+MREL Disqualification Event,mrel_disqualification_event_details,text
+Subscription Agreement Expenses Clause Details,syndicated_expenses_clause_details,text
+Long form of the documentation,documentation_long_name,char
+Issuer Pays Calculation Type,swap_counterparty_a_pays_basis_calculation_type_3,char
+Purchaser Clearing,purchaser_clearing,text
+Floating Maximum Relevant Rate,floating_max_relevant_rate,decimal
+DCL CC Recipients,dcl_recipients_cced,text_list
+Form of the Notes,form_of_the_notes_registered,text
+Par Call Term (months),issuer_call_par_call_term,integer
+Which clause of the subscription agreement should the closing certificates refer to?,subscription_clause_reference,char
+Issuer Board Approval Date(s),board_approval_dates,date_list
+Deemed Interest Payment Date,broken_amount_deemed_interest_payment_date,date
+Selling Concession Required?,selling_concession_required,boolean
+FISN,fisn_code,char
+Email addresses of New Dealers,new_dealers_emails,text_list
+Swap Issuer Entity,swap_issuer_entity_3,char
+Additional Paying Agents,additional_paying_agents,text_list
+Additional Terms,additional_terms,docx
+Underwriting Commitments,syndicated_senior_co_lead_managers_underwriting_commitments,decimal_list
+Is there an Upfront Payment?,swap_upfront_payment_required_1,boolean
+Mid Swap Reference Rate Required,mid_swap_reference_rate_required,boolean
+Issuer Rating (Scope),issuer_rating_scope_rating,char
+Early Redemption Events,sp_early_redemption_events,text
+ISDA Additional Business Days,floating_isda_additional_business_days,text_list
+Early Redemption Amount (tax),early_redemption_amount_tax,decimal
+Linked Period Payment Frequency,linked_coupon_payment_frequency,char
+Fixed Period Payment Frequency,fixed_coupon_payment_frequency,char
+Talons Required?,talons_required,boolean
+Linked Equities Exchange Codes,equities_basket_exchange_codes,text_list
+Linked Equities BBG Pages,equities_basket_bbg_pages,text_list
+Display Issuer Rating?,issuer_rating_required,boolean
+Indices Basket Related Exchanges,indices_basket_related_exchanges,text_list
+Early Redemption Events Applicable?,early_redemption_events_required,boolean
+Will legal opinions be delivered?,legal_opinions_exist,boolean
+Substitution event notice period days,substitution_event_notice_period_days,integer
+144A Disclaimer,us_selling_restrictions_us144a_disclaimer,docx
+Co-Lead Manager(s) Locations,syndicated_senior_co_lead_managers_locations,text_list
+Disclaimer section to be included in the Final Terms,final_terms_disclaimer,docx
+What is the aggregate principal amount represented by the Restricted Global Note?,us144a_size,integer
+Governing Law Exceptions,governing_law_exceptions,text
+Telephone numbers of the (Joint) Lead Manager(s),manager_telephones,text_list
+Final Redemption Type,final_redemption_type,char
+DTC Account Number,us144a_dtc_code,char
+Counterparty B Book,book_counterparty_b,char
+A20_DigStrik2,SEDL_A20_DigStrik2,char
+A20_C0,SEDL_A20_C0,decimal
+Clean-up Redemption Option Applicable?,clean_up_redemption_option_required,boolean
+Total Expenses Currency,total_expenses_currency,char
+Expenses required?,expenses_required,boolean
+Listing Expenses Amount,listing_expenses_amount,integer
+Time and Place of Signing,syndicated_signing_timeplace,char
+Additional Selling Restrictions Applicable?,additional_selling_restrictions_required,boolean
+Approval Guarantee Required?,approval_guarantee_required,boolean
+Net Proceeds Recipient,net_proceeds_recipient,char
+Floating Maximum Relevant Rate Required?,floating_max_relevant_rate_required,boolean
+Singapore Section 309b Disclaimer Applicable?,singapore_section_309b_disclaimer_required,boolean
+Relevant Time,extended_floating_business_days_for_fixing_timeplace,char
+Early Redemption for Tax Reasons?,early_redemption_tax_required,boolean
+CUSIP,cusip_code,char
+CINS,cins_code,char
+Valoren,valoren_code,char
+Mid-swap Yield Required?,mid_swap_yield_required,boolean
+Form Of The Notes Registered,form_of_the_notes_registered,text
+Issuer Call Notice Period,issuer_call_notice_period_text,char
+Waiver of Set off Applicable?,snp_waiver_of_set_off_required,boolean
+"Days in Year (""D"")",floating_overnight_days_in_year,integer
+Screen Rate Source for Determining the Make-Whole Reference Bond Price,make_whole_screen_rate_source,char
+Covenants,covenants,text
+Underwriting Commitments,syndicated_co_lead_managers_underwriting_commitments,decimal_list
+Swap 1 Floating Basis Type,swap_counterparty_a_pays_basis_type_1,char
+Counterparty A Pays Payment Delay Days,swap_counterparty_a_pays_payment_delay_days_3,integer
+Swap Basis Term (months),swap_counterparty_a_pays_basis_term_1,integer
+Underwriting Commitments,syndicated_joint_lead_managers_underwriting_commitments,decimal_list
+CMU Paying Agent,cmu_paying_agent,char
+Article 45b2(b) BRRD Applicable?,early_redemption_45b2_BRRD_applicable,boolean
+Selling Concession Amount,selling_concession_amount,decimal
+New Dealers,new_dealers,text_list
+Swap Counterparty Swift Code for Bond Leg Currency,swap_counterparty_fx_base_swift_code_1,char
+Net Proceeds,net_proceeds,decimal
+Number of Copies Executed,syndicated_copies_executed,integer
+Permanent Global Note to be submitted to CBF via eMission?,global_note_uses_emission,boolean
+Form of the Notes,form_of_the_notes_registered,text
+Purchaser Clearing Account Number,purchaser_clearing_account,text
+Commission Percentage,syndicated_commission_percentage,decimal
+Linear Interpolation Designated Maturity,floating_linear_interpolation_designated_maturity,char
+Additional Business Centres Required?,additional_business_centres_required,boolean
+Senior Co-Lead Managers Required?,syndicated_senior_co_lead_managers_required,boolean
+Attention details of New Dealers,new_dealers_attention,text_list
+Swap Counterparty Entity,swap_counterparty_entity_1,char
+Temporary Code subject to Certification?,temporary_global_certificate_required,boolean
+Reset Screen Rate Page,reset_screen_rate_page,char
+Gross up of Principal Applicable?,snp_gross_up_of_principal_required,boolean
+Redemption Amount in the event of a Capital Event,capital_event_redemption_amount,decimal
+Product Rating Outlook (Scope),product_rating_scope_outlook,char
+Expected Rating Outlook (S&P),expected_rating_sp_outlook,char
+Events of Default,sp_events_of_default,text
+ISDA Relevant Fixing Time,floating_isda_fixing_time,char
+Guarantor Board Approval Time,guarantor_board_approval_time,char
+Leverage Multiplier,leveraged_multiplier,decimal
+Number of Days Before the Final Redemption for Determination,final_redemption_determination_date_days_before,integer
+Linked Equities Performance Prices,equities_basket_performance_prices,decimal_list
+Linked Period Annual Interest Payment Dates,linked_coupon_annual_interest_payment_dates,date_list_no_year
+New Safekeeping Structure Required?,new_safekeeping_structure_required,boolean
+Display Status and Ranking?,status_and_ranking_required,boolean
+Min Denom Currency,min_denom_currency,text
+Redemption following MREL event,redemption_following_mrel_event,boolean
+Settlement Lead Manager Location,syndicated_settlement_lead_manager_location,char
+Put Options Details,put_option_details,text
+Early Redemption Amount for Taxation Reasons Applicable?,early_redemption_amount_tax_required,boolean
+Number of Previous Tranches,taps_previous_tranches_counter,integer
+Senior Co Lead Manager(s) Legal Name(s),syndicated_senior_co_lead_managers_legal_names,text_list
+Reoffer Spread to Mid-swap (bps),reoffer_spread_to_mid_swap,decimal
+Annual Interest Payment Dates,extended_annual_interest_payment_dates,date_list_no_year
+Floating Minimum Relevant Rate,floating_min_relevant_rate,decimal
+Documentation,documentation,text
+Maturity Date,extended_maturity_date,date
+Selling Concession Currency,selling_concession_currency,char
+Benchmark Replacement Applicable?,benchmark_replacement_required,boolean
+Underwriting Commitment,syndicated_lead_manager_sole_bookrunner_underwriting_commitment,decimal
+All-In Issuer Price (%),all_in_issuer_price,decimal
+All-In Issuer Yield (%),all_in_issuer_yield,decimal
+Board Attendees 1,board_attendees_1,text_list
+Method for Calculating Overnight Interest Rate,floating_overnight_determination_method,char
+Form Of The Notes Registered,form_of_the_notes_registered,text
+Previous Tranche Issue Dates,taps_previous_tranches_issue_dates,date_list
+Maturity Date Required?,extended_maturity_date_required,boolean
+Screen Rate Page for Determining the Make-Whole Reference Bond Price,make_whole_screen_rate_page,char
+Swap 2 Floating Basis Type,swap_counterparty_a_pays_basis_type_2,char
+Prospectus Expiry is within Public Offer Period or Before Settlement?,prospectus_expiry_within_offer_period,boolean
+Singapore Section 309b Classification of the Notes,singapore_section_309b_disclaimer_notes_classification,text
+Benchmark Reference Type,benchmark_reference_type,text_list
+Swap Basis Term (months),swap_counterparty_a_pays_basis_term_3,integer
+Public Offer Period Required?,public_offer_required,boolean
+Issuer Call Reference Bond,issuer_call_reference_bond,char
+Bail-in Acknowledgement,snp_bail_in_acknowledgement,text
+Settlement Lead Manager,syndicated_settlement_lead_manager,char
+Issuing Type,issuing_type,char
+Determination Agent Address,determination_agent_address,text
+Purchaser Has Agreed to Pay Transaction Expenses?,purchaser_pays_required,boolean
+Applicable formula to be used for calculating the Rate(s) of Interest and/or Interest Amount(s),floating_interest_applicable_formula,integer
+Benchmark Discontinuation Type,floating_benchmark_discontinuation_type,char
+Pricing Fields for Issuer Termsheet,pricing_fields_issuer,text_list
+Relevant Financial Centre for Fixing,extended_floating_relevant_financial_centre_for_fixing,char
+Are German banks involved on the deal?,german_banks_required,boolean
+Swap Counterparty Account Number for Swap Leg Currency,swap_counterparty_fx_target_account_number_1,char
+Relevant Spot Rate Screen Page for Deliverable Basis,relevant_spot_screen_page_deliverable_basis,char
+Product Rating Outlook (Moody's),product_rating_moodys_outlook,text
+Swap Counterparty Address,swap_counterparty_entity_address,text
+Swap Counterparty Entity,swap_counterparty_entity_2,char
+Reset Screen Rate Page Required?,reset_screen_rate_page_required,boolean
+MREL/TLAC Disqualification Event Details,mrel_tlac_disqualification_event_details,docx
+Dealer Clearing Account Number,dealer_clearing_account,char
+Product Rating (Scope),product_rating_scope_rating,char
+Does the Bond Issuance Predate the 8 July 2022?,bond_predates_8_july_2022,boolean
+ISDA Unscheduled Holiday Applicable?,floating_isda_unscheduled_holiday_applicable,boolean
+Knock-in Observation Period Start Date,knock_in_observation_period_start_date,date
+Applicable Period,applicable_period,text
+Number of Days Before the Knock-out for Determination,knock_out_determination_date_days_before,integer
+Linked Equities Knock-in Prices,knock_in_prices,decimal_list
+Number of Days Before Reference Date,reference_date_number_days_before,integer
+"Where the rating agencies are established in the EEA, are they endorsed by entities established in the UK?",rating_agency_endorsement_required,boolean
+Residual Shares,residual_shares,decimal_list
+Statutory Write Down and Conversion Required?,statutory_write_down_and_conversion_required,boolean
+Applicable Tax Regime,applicable_tax_regime_french_law,text
+Substitution Event Condition,substitution_event_condition,text
+Is substitution event notice period as per condition,is_substitution_event_notice_period_as_per_condition,boolean
+Net Proceeds in Settlement Currency,net_proceeds_settlement_currency,decimal
+Deliverable Currency,deliverable_currency_long,text
+Form of Dematerialised Notes,form_of_dematerialised_notes,char
+Pricing Fields for Investor Termsheet,pricing_fields_investor,text_list
+Effective Date for Reference Bank Quotations Required?,floating_reference_banks_effective_date_required,boolean
+Co Lead Manager(s) Legal Name(s),syndicated_co_lead_managers_legal_names,text_list
+Commissioner,commissioner,char
+Non-Deliverable Calculation Agent,non_deliverable_currency_calculation_agent,text
+Authenticated by Issuing Agent?,authenticated_by_issuing_agent,boolean
+Floating Minimum Relevant Rate Required?,floating_min_relevant_rate_required,boolean
+Events of Default Required?,snp_events_of_default_required,boolean
+Floating Basis Type,floating_basis_type,char
+"""Qualifying Debt Securities"" for Singapore Income Tax Act Chapter 134",singapore_qualifying_debt_securities_required,boolean
+Early Redemption Amount,early_redemption_amount_text,char
+Manager Involved Roles,syndicated_manager_involved_roles,text_list
+Swap 3 Floating Basis Type,swap_counterparty_a_pays_basis_type_3,char
+Interest Commencement Date,taps_date_of_interest_payment_prior_to_new_note,date
+Benchmark Reference Required,benchmark_reference_required,boolean
+Time and Place of Fixing,swap_counterparty_a_pays_business_days_for_fixing_timeplace_2,char
+Issuer Call Redemption Margin (%),issuer_call_redemption_margin,decimal
+Clearing,swap_clearing_1,text
+Credit Sub Account Number,lettre_comptable_credit_sub_account_number,char
+Global Note to be Manually Signed?,global_note_manual_signing_required,boolean
+Clause 326 of the Programme Agreement Applies?,clause_326_applies,boolean
+Redemption following a capital event?,redemption_following_capital_event,boolean
+Observation Method,extended_floating_overnight_observation_method,char
+Early Redemption Discount Rate Required?,early_redemption_discount_rate_required,boolean
+German bank legal names,german_banks,text_list
+Original Common Code for Series,taps_original_common_code,char
+Swap Counterparty Bank Name for Swap Leg Currency,swap_counterparty_fx_target_bank_name_1,char
+Swap Counterparty 'Attention of',swap_counterparty_entity_attn,char
+Swap Counterparty Entity,swap_counterparty_entity,char
+Swap Counterparty Entity,swap_counterparty_entity_3,char
+Reset Determination Dates,reset_determination_dates,date_list
+Talons Required?,talons_required,boolean
+Gross Up Event Details,gross_up_event_details,docx
+Guarantor Rating Outlook (S&P),guarantor_rating_sp_outlook,text
+Expected Rating Outlook (Moody's),expected_rating_moodys_outlook,char
+Maturity Extension Trigger Events,maturity_extension_trigger_events,text
+ISDA Calculation Type,floating_isda_calculation_type,char
+Board Attendees 2,board_attendees_2,text_list
+Redemption Type,redemption_type,char
+Coupon C Broken Amount,coupon_c_broken_amount,decimal
+Is the Knock-in Period the valuation Date?,knock_in_observation_period_is_valuation_date,boolean
+Linked Equities Quoted Currencies,equities_basket_quoted_currencies,text_list
+Which UK entities are endorsing the rating agency/agencies established in the EEA?,rating_agency_endorsement_entities,text_list
+Non-Deliverable Currency Applicable?,non_deliverable_currency_required,boolean
+Broken Amount Days,broken_amount_days,integer
+Waiver of Set-Off,waiver_of_set_off,text
+is MREL event notice period as per condition,is_mrel_event_notice_period_as_per_condition,boolean
+Is redemption for tax reasons,is_redemption_for_tax_reasons,boolean
+CUSIP CODE (144A),us144a_cusip_code,char
+Counsel from which jurisdiction(s) will be appointed on the transaction?,legal_counsel,text_list
+Financial Covenants,financial_covenants,text
+Certificate Number,certificate_number,char
+Issuer Rating (Moody's),issuer_rating_moodys_rating,text
+What is the aggregate principal amount represented by the Unrestricted Global Note?,regs_size,integer
+Knock-out Prices Table,knock_out_prices_table,[decimal_list]
+Custodian,clearing_custodian,char
+Issuer Party A Signatory Names,issuer_party_a_signatory_names,text_list
+Knock-out Redemption Amount per Min Denom,knock_out_amount_per_min_denom,decimal
+Equity Underlying ISINs,equities_basket_isins,text_list
+Section 871(m) Wording Required?,section_871m_wording_required,boolean
+A20_DigStrik1,SEDL_A20_DigStrik1,char
+A20_LowStrike1,SEDL_A20_LowStrike1,text
+A20_LowStrike3,SEDL_A20_LowStrike3,text
+A20_HighStrike1,SEDL_A20_HighStrike1,text
+MiFID/MiFIR Target Market Text,mifid_target_market_verbose_professional,docx
+Relevant Spot Rate Screen Page for Non-Deliverable Basis,relevant_spot_screen_page_non_deliverable_basis,char
+Business Day Adjustment,business_day_adjustment,text
+Common Service Provider,clearing_common_service_provider,char
+Effective Date for Reference Bank Quotations,floating_reference_banks_effective_date,char
+Reference Rate Replacement?,reference_rate_replacement_required,boolean
+Lead Manager & Sole Bookrunner Legal Name,syndicated_lead_manager_sole_bookrunner_legal_name,char
+Determination Method,extended_floating_overnight_determination_method,char
+Issuing and paying agent contact name,issuing_and_paying_agent_contact_name,char
+Note Type,note_type,char
+Amendment of the Terms and Conditions - 75% Majority Required?,german_bond_act_alternative_majority_measures_required,boolean
+Identifiers,identifiers,text_list
+Events of Default,snp_events_of_default,text
+Is a Successor Currency required?,successor_currency_required,boolean
+Do the final terms require board or other approval?,approval_required,boolean
+Do the final terms require board approval?,approval_board_required,boolean
+Floating Rate Observation Method,floating_overnight_observation_method,char
+Exchange Agent,exchange_agent,char
+Underwriting Allotment,syndicated_lead_manager_sole_bookrunner_allotment,decimal
+Commission,syndicated_lead_manager_sole_bookrunner_commission,decimal
+Early Redemption Discount Rate,early_redemption_discount_rate,decimal
+Commission Required?,commission_required,boolean
+Common Service Provider Address,clearing_common_service_provider_address,text
+Issuing and Paying Agent Address,issuing_and_paying_agent_address,text
+Approval Date,approval_date,date
+Do you want to manually input the rate that Party B will pay?,swap_counterparty_b_pays_manual_input_1,boolean
+Should Issuer Signatory Roles be displayed?,issuer_signatory_roles_required,boolean
+Issuer Call Optional Redemption Valuation Dates Required?,issuer_call_optional_redemption_valuation_dates_required,boolean
+Reference Security Yield (%),benchmark_reference_yield,decimal
+Display MiFID Disclaimer?,mifid_disclaimer_required,boolean
+Issuer Call Quotation Time,issuer_call_quotation_time,char
+Registrar Location Required?,registrar_location_required,boolean
+Conditions of Borrowing Language,conditions_of_borrowing_language,char
+Purchaser Has Agreed to Pay Fees and Expenses of the Agent and any Paying Agents?,purchaser_pays_fees_of_agents,boolean
+Contractual Recognition of Bail-In Required,contractual_bail_in_required,boolean
+Guarantee Approval Date,approval_guarantee_date,date
+Principal Business Centre,business_days_for_payment_primary_calendar,char
+"Are Notes subject to Redenomination, Renominalization or Reconventioning?",redenomination_renominalization_reconventioning_notes_required,boolean
+Determination Method,swap_counterparty_a_pays_basis_determination_method_2,char
+Swap 1 Floating Benchmark,swap_counterparty_a_pays_basis_benchmark_1,char
+Swap Issuer Account Name for Bond Leg Currency,swap_issuer_fx_base_account_name_1,char
+Swap Counterparty Contact Email(s),swap_counterparty_entity_email,char
+Is the Issuer SEC Exempt?,sec_exempt_issuer,boolean
+Reset Screen Rate Page Required?,reset_determination_dates_required,boolean
+Tax Deductibility Event Details,tax_deductibility_event_details,docx
+Guarantor Rating (DBRS),guarantor_rating_dbrs_rating,char
+Guarantor Rating Outlook (Fitch),guarantor_rating_fitch_outlook,text
+Notice in Federal Gazette Required?,listing_federal_gazette_required,boolean
+Coupon B Broken Amount,coupon_b_broken_amount,decimal
+Expected Rating Outlook (Fitch),expected_rating_fitch_outlook,char
+Base Prospectus Date,base_prospectus_date,date
+ISDA Non-Representative Applicable?,floating_isda_non_representative_applicable,boolean
+Linked Equities Exchanges,equities_basket_exchanges,text_list
+Issuer Contact Names,issuer_contact_names,text_list
+Syndicated DVP Proceeds are Available?,syndicated_dvp_proceeds_available,char
+Timing of Settlement Funds,timing_of_settlement_funds,char
+Early Redemption Events,early_redemption_events,text
+Capital event condition,capital_event_condition,text
+MREL event redemption amount,mrel_event_redemption_amount,integer
+Joint Lead Managers Locations,syndicated_joint_lead_managers_locations,text_list
+Co-Lead Manager(s) Locations,syndicated_co_lead_managers_locations,text_list
+Financial Covenants Applicable?,financial_covenants_required,boolean
+A8_End,SEDL_A8_End,char
+Additional Publication of the Base Prospectus and Final Terms Required?,additional_publication_required,boolean
+Specified Duration for Reference Bank Quotations Required?,floating_reference_banks_specified_duration_required,boolean
+Clearing,swap_clearing_2,char
+Today's date,today_date,date
+Issuer Contact Name,issuer_contact_name,char
+Common Code (144A),us144a_common_code,char
+MiFID/MiFIR Target Market Text,mifid_target_market_verbose_retail,docx
+Issuer Call Optional Redemption Price (%),issuer_call_optional_redemption_price,decimal
+(Joint-)Lead Managers,syndicated_joint_lead_managers,text_list
+Exclusion of the possibility to request identification information of Bondholders?,french_governing_law_masse_bondholder_id_exclusion,boolean
+Investor Bottom Disclaimer,investor_bottom_disclaimer,docx
+Issuing and Paying Agent,issuing_and_paying_agent,text
+Commission Currency,commission_currency,char
+Issuer Bottom Disclaimer,issuer_bottom_disclaimer,docx
+Swap Bottom Disclaimer,swap_bottom_disclaimer,docx
+"Period ""p"" (Lookback)",extended_floating_overnight_period_p,integer
+What is the Issuer's Home Member State?,home_member_state,char
+Form Of The Notes,form_of_the_notes_registered,text
+"Floating Rate Period ""p""",floating_overnight_period_p,integer
+Exchange Agent Required?,exchange_agent_required,boolean
+Include reference to MiFID in Final Terms / Pricing Supplement?,mifid_language_include,boolean
+Previous Tranche Sizes,taps_previous_tranches_sizes,integer_list
+Change of Control Redemption Amount,change_of_control_redemption_amount,decimal
+Party B Pays Fixed Rate (%},swap_counterparty_b_pays_fixed_rate_1,decimal
+Clearing,swap_clearing_3,char
+Register of Administrators and Benchmarks is Established and Maintained by ESMA?,floating_relevant_benchmark_esma_maintained,boolean
+Registrar Location,registrar_location,char
+Amendment to Eurozone Definition,eurozone_amendment,text
+Additional Canadian Selling Restrictions,additional_canadian_selling_restrictions,docx
+Contractual Recognition of Bail-In Details,contractual_bail_in_details,docx
+Substitution or variation following an MREL Disqualification Event,substitution_following_disqualification_event,boolean
+Settlement Currency,currency_settlement,char
+"Floating Rate Period ""d""",floating_overnight_period_d,integer
+Manager International Counsel Required on Trade?,legal_manager_international_counsel_required,boolean
+Swap 2 Floating Benchmark,swap_counterparty_a_pays_basis_benchmark_2,char
+Swap Issuer Account Number for Bond Leg Currency,swap_issuer_fx_base_account_number_1,char
+Swap Counterparty Pays Basis Currency,swap_from_basis_currency_1,text
+Expenses Clause Details,expenses_details,text
+Reset Fallback Provisions,reset_fallback_provisions,char
+Reset Benchmark Reference,reset_benchmark_reference,text
+Expected Rating Outlook (DBRS),expected_rating_dbrs_outlook,char
+Programme Date,programme_date,date
+Calculation Agent Address,calculation_agent_address,text
+Display Settlement Type?,delivery_required,boolean
+Reset Benchmark Reference Rate,reset_benchmark_reference_rate,char
+Guarantor Signatory Names,guarantor_signatory_names,text_list
+Fixed Period All Interest Payment Dates,fixed_coupon_all_interest_payment_dates,date_list
+Intraday or Reference Price?,intraday_or_reference_price,char
+Fixed Period Annual Interest Payment Dates,fixed_coupon_annual_interest_payment_dates,date_list_no_year
+Should Dealer Signatory Roles be displayed?,dealer_signatory_roles_required,boolean
+Indices Basket Performance Prices,indices_basket_performance_prices,decimal_list
+Manager US Counsel Required on Trade?,legal_manager_us_counsel_required,boolean
+MREL event condition,mrel_event_condition,text
+FX Base Currency,swap_fx_base_currency_2,char
+Mutual Break Clause,swap_mutual_break_clause_2,text
+Capital event notice period days,capital_event_notice_period_days,integer
+Lead Manager and Sole Bookrunner Location,syndicated_lead_manager_sole_bookrunner_location,char
+Is an Annex required in the Final Terms,final_terms_annex_required,boolean
+Underlying Equities Tickers,equities_basket_tickers,text_list
+Joint Dealer,joint_dealer,text
+Cross Default,cross_default,text
+Email addresses of the (Joint) Lead Manager(s),managers_emails,text_list
+U.S. Selling Restriction Category,us_selling_restrictions_category,integer
+Are there Regulated Markets or Equivalents on which Securities of the Same Class are already Admitted to Trading?,listing_markets_same_class_already_admitted_required,boolean
+Specified Duration for Reference Bank Quotations,floating_reference_banks_specified_duration,text
+(Joint) Lead Manager(s) Legal Name(s),syndicated_joint_lead_managers_legal_names,text_list
+Relevant Benchmark is maintained by ESMA?,extended_floating_relevant_benchmark_esma_maintained,boolean
+Form of the Notes Bearer Exchange Date Information,form_of_the_notes_bearer_exchange_date_information,char
+Optional Redemption by the Issuer (Call Option),issuer_call_details,text
+"Banking Days in Interest Accrual Period (""d"")",floating_basis_days_in_interest_accrual_period,integer
+Guarantor LEI,guarantor_lei,char
+Swap 3 Floating Benchmark,swap_counterparty_a_pays_basis_benchmark_3,char
+Capital Protected Security?,capital_protected_security,boolean
+Base Prospectus Expiry Date,prospectus_expiry_date,date
+Events of Default Required?,sp_events_of_default_required,boolean
+"§ 2 (5 through 7) Status, Declaration Of Undertaking, Guarantee applicable?",status_declaration_of_undertaking_guarantee_applicable,boolean
+Exchangeable for Definitive Notes on notice given?,form_of_the_notes_exchange_notice_period_required,boolean
+Global Note exchangeable for Definitive Notes only upon an Exchange Event?,form_of_the_notes_exchange_event_required,boolean
+Issuer Call Minimum Notice Period Required?,issuer_call_notice_period_min_required,boolean
+Issuing and Paying Agent Location,issuing_and_paying_agent_location,char
+Purchaser,purchaser,text
+Other Terms and Conditions,other_terms_conditions,docx
+2nd Signatory Name,signatory_name_2,char
+Substitution or variation following a Capital Event,substitution_following_capital_event,boolean
+Settlement Currency Required?,currency_settlement_required,boolean
+Swap Counterparty Swift Code for Swap Leg Currency,swap_counterparty_fx_target_swift_code_1,char
+Interest Types,interest_bases,text_list
+Is Condition 5i Applicable?,floating_condition_5i_applicable,boolean
+Specify Commission/Commitment detail for Manager(s)?,commission_detail_required,boolean
+Reset Fallback Provisions Required?,reset_fallback_provisions_required,boolean
+Capital Event Details,capital_event_details,docx
+Display the Programme Date and Size?,programme_date_and_size_required,boolean
+Cross Default Applicable?,cross_default_required,boolean
+New Total Size,taps_new_total_size,integer
+Display US Selling Restriction Category?,us_selling_restrictions_category_required,boolean
+ISDA Business Days as per ISDA Definitions?,floating_isda_method_days_in_definitions,boolean
+Should Guarantor Signatory Roles be displayed?,guarantor_signatory_roles_required,boolean
+Number of Steps,number_of_digital_coupon_steps,integer
+Linked Period All Interest Payment Dates,linked_coupon_all_interest_payment_dates,date_list
+Change of Basis Date,change_of_basis_date,date
+Dealer Signatory Names,dealer_signer_names,text_list
+ISIN Code (144A),us144a_isin_code,char
+Benchmark,floating_benchmark,char
+Who is the Managers' US Counsel?,legal_manager_us_counsel,text
+Who is the Managers' International Counsel?,legal_manager_international_counsel,char
+Redemption notice period,redemption_notice_period,integer
+MREL event notice period days,mrel_event_notice_period_days,integer
+Dealer Location,dealer_location,char
+Custom Field 1 Value,custom_swap_termsheet_3_field_1_value,text
+Custom Field 2 Label,custom_swap_termsheet_2_field_2_label,char
+Details of Annex to Final Terms,final_terms_annex,docx
+Is Joint Dealer Applicable?,is_joint_dealer_applicable,boolean
+Addresses of the (Joint) Lead Manager(s),manager_addresses,text_list
+Trigger Prices Table,trigger_prices_table,[decimal_list]
+Underlying Equities Currencies,basket_quoted_currencies,text_list
+Settlement Manager's Commissionaire Account Identifier,commissionaire_account,text
+Issuer Party B Signatory Names,issuer_party_b_signatory_names,text_list
+Disrupted Days,disrupted_days,text
+Knock-Out Redemption Price,knock_out_redemption_price,decimal
+Adjustment Amount,gross_pnl,decimal
+Knock-Out Bonus Percentage,knock_out_bonus_percentage,decimal
+Party B Floating Designated Maturity,{{swap_counterparty_b_floating_designated_maturity}},char
+Knock-Out Bonus Amount,knock_out_bonus_amount,decimal
+Is a Fixed Amount Schedule required in the Swap Confirmation?,fixed_amount_schedule_required,boolean
+Swap Issuer Pays Fixed Coupon Rate (%),swap_counterparty_a_pays_fixed_coupon_rate_1,decimal
+Listing Agent,listing_agent,char
+A20_DigStrik0,SEDL_A20_DigStrik0,char
+A20_LowStrike2,SEDL_A20_LowStrike2,text
+Representation of holders of French Law Notes - Masse,french_governing_law_masse_type,char
+Regulated Markets or Equivalents on which Securities of the Same Class are already Admitted to Trading,listing_markets_same_class_already_admitted,text
+Floating Rate Determination Date,floating_isda_determination_date,text
+Reoffer Spread (bps),reoffer_spread,decimal
+Make Whole Redemption by the Issuer Required?,make_whole_redemption_required,boolean
+Early Redemption for MREL Event?,early_redemption_mrel_required,boolean
+Signatory Name,signatory_name,char
+2nd Signatory Role,signatory_role_2,char
+Margin (bps),floating_margin,decimal
+Syndicated Co-Lead Managers Required?,syndicated_co_lead_managers_required,boolean
+Form Of The Notes Registered,form_of_the_notes_registered,text
+Condition 6(c)(iv) applies (Zero minimum interest),floating_condition_6civ_applicable,boolean
+Fallback Provisions,bond_fallback_provisions,docx
+Type of Collateral,covered_collateral_type,char
+Govie Reference Yield (%),govie_yield,decimal
+Net Proceeds Recipient Beneficiary BIC,net_proceeds_recipient_bic,char
+Floating Rate Calculation Type,floating_overnight_calculation_type,char
+Allotments,syndicated_senior_co_lead_managers_allotments,decimal_list
+Temporary ISIN,temporary_isin_code,char
+EU Blocking Regulation Details,eu_blocking_regulation_text,docx
+Swap 1 Upfront Payer,swap_upfront_payer_1,char
+Counterparty A Pays Linear Interpolation,swap_counterparty_a_pays_linear_interpolation_3,char
+Capital Protected At Maturity (%),capital_protected_at_maturity,decimal
+Tax Gross Up Conditions Applicable?,tax_gross_up_condition_applicable,boolean
+Dealer Contact Institution,dealer_contact_institution,char
+Display Reoffer Price & Yield/Spread on Investor Termsheet?,reoffer_required,boolean
+CMU Lodging Agent Required?,cmu_lodging_agent_required,boolean
+Spread Versus Govie (bps),govie_spread_versus,decimal
+Govie Reference,govie_reference,text
+Form Of The Notes - Notice period for Exchange (days),form_of_the_notes_exchange_notice_period,integer
+Initial Global Note Exchangeable for:,form_of_the_notes_after_exchange_physical_form,char
+Swap Callable Periods,swap_callable_periods,text_list
+Issuing and Paying Agent Location Required?,issuing_and_paying_agent_location_required,boolean
+Tap Accrued Interest Rate (%),tap_accrued_interest_rate,decimal
+Is there a Clean up Call?,clean_up_call_required,boolean
+Global Note Required?,global_note_required,boolean
+Relevant Screen Rate Time,floating_basis_screen_rate_time,char
+Swap Counterparty Account Name,swap_counterparty_account_name_1,char
+Determination Method,swap_counterparty_a_pays_basis_determination_method_1,char
+Selling Concession Percentage (%),selling_concession_percentage,decimal
+Coupon Type 2,coupon_type_2,text
+Total Commission Amount,commission_amount,decimal
+Number of Days after giving notice to the holders in respect of a discontinuation event on which the Issuer may redeem,floating_number_of_days_after_discontinuation_notice,integer
+Further Expenses details required?,expenses_details_required,boolean
+Withholding Tax Event Details,withholding_tax_event_details,docx
+Reset Dates,reset_dates,date_list
+Net Proceeds in Euros,net_proceeds_euro,decimal
+Conditions of Borrowing,conditions_of_borrowing,text
+English Translation of Conditions of Borrowing Required?,conditions_of_borrowing_english_translation_required,boolean
+Listing Exchange Market,listing_exchange_market,char
+Representative Notional Amount for Reference Bank Quotation Required?,floating_reference_banks_representative_amount_required,boolean
+Reference Bank Quotation Amount,floating_reference_banks_representative_amount,char
+Minimum Instalment Amount,instalment_amount_min,char
+Maximum Instalment Amount,instalment_amount_max,char
+Internal Swap Floating Rate Payment Frequency,internal_swap_counterparty_a_payment_frequency_1,text
+Other Provisions Required,zero_other_provisions_required,boolean
+Base Prospectus AMF Approval Number,base_prospectus_approval_number,char
+Issuer Rating Outlook (DBRS),issuer_rating_dbrs_outlook,char
+Form of the Notes,form_materialised_or_dematerialised,text
+Earlier Tranche(s) Description,taps_earlier_tranche_description,text
+Further Target Market Criteria Required?,mifid_retail_all_distribution_channels_futher_criteria_required,boolean
+Base Prospectus Supplement Dates,supplement_dates,date_list
+Issuer Signatory Names,issuer_signatory_names,text_list
+Is a Knock-Out Applicable?,knock_out_applicable,boolean
+Equities Minimum Deliverable Lots,equities_basket_minimum_deliverable_lots,integer_list
+Indices Basket Quoted Currencies,indices_basket_quoted_currencies,text_list
+Attention details of Issuer,issuer_attention,char
+CMU Code Required?,cmu_code_required,boolean
+Expected Ratings of the Notes (custom Rating Agency 3),expected_rating_custom_3_rating,char
+Registration Agent,french_governing_law_registration_agent,text
+Product Rating Outlook (Fitch),product_rating_fitch_outlook,text
+Issuer Call Is Redeemable in Part,issuer_call_is_redeemable_in_part,boolean
+Is a Third-Party That Is Not the Calculation Agent Responsible for Calculating the Interest?,floating_party_responsible_is_not_calculation_agent,boolean
+Whether Condition 8 (a) of the Notes Applies (in Which Case Condition 7(b) of the Notes Will Not Apply) or Whether Condition 8(b) and Condition 7(b) of the Notes Apply,leaseplan_condition8b_and_condition7b,text
+Exclusion of the possibility to request identification of a Noteholder as Provided by Condition 1(a),exclusion_of_possibility_request_identification_noteholder_condition_1a,boolean
+Determination Agent,determination_agent,char
+Change of Interest Basis Automatic or on Notification?,change_of_interest_basis_notification_or_automatic,char
+Under Section 309b Are These Prescribed Capital Markets Products?,singapore_section_309b_prescribed_capital_markets_products,boolean
+CFI Required?,cfi_code_required,boolean
+Coupon Type,coupon_type,text
+Common Code Required?,common_code_required,boolean
+Issuer Rating (DBRS),issuer_rating_dbrs_rating,char
+Does the Issue Funge Immediately?,taps_funge_immediately,boolean
+Expected Ratings of the Notes (custom Rating Agency 1),expected_rating_custom_1_rating,char
+Form of the Notes Registered,form_of_the_notes_registered,text
+Relevant Benchmark in Scope of Benchmark Regulation?,floating_relevant_benchmark_in_scope_of_benchmark_regulation,boolean
+Relevant Financial Centre for Fixing,floating_relevant_financial_centre_for_fixing,char
+Common Code,common_code,char
+Issue Price (%),issue_price,decimal
+ISDA Definitions,floating_isda_definitions,char
+Maximum Issuer Call Notice Period Applicable?,issuer_call_notice_period_max_required,boolean
+Further Target Market Criteria,mifid_retail_all_distribution_channels_futher_criteria,text
+Reference Number,reference_number,char
+Restricted Events of Default Applicable?,snp_restricted_events_of_default_required,boolean
+Calculation Agent Required?,calculation_agent_required,boolean
+Swap Counterparty Bank Name for Bond Leg Currency,swap_counterparty_fx_base_bank_name_1,char
+Display Total Commission and Concession?,total_commission_and_concession_required,boolean
+Total Commission and Concession,total_commission_and_concession,text
+FISN Required?,fisn_code_required,boolean
+Issuer Rating,issuer_rating,text_list
+Maturity Type,covered_maturity_type,text
+Expected Ratings of the Notes (custom Rating Agency 2),expected_rating_custom_2_rating,char
+Credit Institution Code,lettre_comptable_credit_institution_code,char
+All Distribution Channel Details Required?,mifid_retail_all_distribution_channels_details_required,boolean
+Party Responsible for Calculating Interest,floating_party_calculating_interest_not_calculation_agent,text
+Floating Isda Floating Rate Option,floating_isda_floating_rate_option,text
+Floating Isda Designated Maturity,floating_isda_designated_maturity,text
+Name and Address of the Holders' Representative,german_bond_act_holders_representative_name_address,text
+Issuing & Paying Agent,issuing_and_paying_agent,text
+Clean-Up Call Redemption Amount,clean_up_call_redemption_amount,decimal
+Final Redemption Amount,final_redemption_amount_text,char
+Minimum Interest Rate (Floor) Applicable?,floating_min_interest_rate_required,boolean
+Floating Isda Reset Date,floating_isda_reset_date,char
+Min Interest Rate (Floor) (%),floating_min_interest_rate,decimal
+Maximum Interest Rate (Cap) Applicable?,floating_max_interest_rate_required,boolean
+Max Interest Rate (Cap) (%),floating_max_interest_rate,decimal
+Date of Regulatory Approval/Consent,approval_regulatory_date,date
+Maturity Date,maturity_date,date
+Settlement Date,settlement_date,date
+Other Interest Provisions,zero_other_provisions,docx
+Credit Sub Account Number Type,lettre_comptable_credit_sub_account_number_type,char
+Early Termination Amount Applicable?,early_termination_amount_required,boolean
+Form of the Notes,form_of_the_notes,text
+# of (Joint-)Lead Manager(s),syndicated_joint_lead_manager_counter,integer
+Broken Amount,fixed_broken_amount,decimal
+Dealer Contact Name,dealer_contact_name,char
+The aggregate principal amount of Notes converted into the programme's base currency,size_conversion_amount,integer
+CINS Required?,cins_code_required,boolean
+Issuer Rating (custom Rating Agency 1),issuer_rating_custom_1_rating,char
+Clean-Up Call Notice Period,clean_up_call_notice_period,integer
+Original Offering Circular Date,taps_original_offering_circular_date,date
+Is the Maturity Greater Than One Year?,maturity_greater_one_year,boolean
+Product Rating Custom Rating 2 Agency,product_rating_custom_2_rating_agency,char
+Signing Date,signing_date,date
+Display Issuer Call Optional Redemption Amount Calculation?,issuer_call_optional_redemption_amount_calculation_required,boolean
+Other Floating Rate Provisions Applicable?,floating_other_provisions_required,boolean
+Early Redemption Amount (tax) Applicable?,early_redemption_amount_tax_required,boolean
+Linear Interpolation Applicable?,floating_linear_interpolation_required,boolean
+Fitch Outlook,ratings_fitch_outlook,text
+Display the Zero Coupon Formula?,zero_formula_required,boolean
+Zero Coupon Calculation Agent?,zero_calculation_agent_required,boolean
+Dual Currency Option Person,dual_currency_option_person,text
+Dual Currency Calculation Agent?,dual_currency_calculation_agent_required,boolean
+Dual Currency Calculation Agent,dual_currency_calculation_agent,text
+Calculation Agent,calculation_agent,char
+Dual Currency Fallback Provisions,dual_currency_fallback_provisions,docx
+Change of Interest Basis Notification period defined in Business or Calendar days?,change_of_interest_basis_notification_days_type,char
+Zero Reference Price (%),zero_reference_price,text
+Floating Other Provisions,floating_other_provisions,docx
+Issuing Agent is also Paying Agent?,issuing_agent_is_paying_agent,boolean
+Regulatory Approval Required?,approval_regulatory_required,boolean
+Swap 1 Upfront Payment Currency,swap_upfront_payment_currency_1,char
+Form of the Notes,form_of_the_notes,text
+Counterparty A Pays Lookback Period,swap_counterparty_a_pays_period_p_1,integer
+Is Esma Complex Bond,is_esma_complex_bond,boolean
+Counterparty A (issuer) Pays Basis Screen Rate Source,swap_counterparty_a_pays_fixing_screen_rate_source_2,char
+Issuer Call Applicable?,issuer_call_required,boolean
+Listing Required?,listing_required,boolean
+Rating of the Notes,ratings_type,text
+Penultimate Interest Payment Date,penultimate_interest_payment_date,date
+New Global Note?,new_global_note_required,boolean
+Mifid Manufacturers,mifid_manufacturers,text_list
+Swap Issuer Bank Name for Swap Leg Currency,swap_issuer_fx_target_bank_name_1,char
+Issuer Rating Custom Rating 2 Agency,issuer_rating_custom_2_rating_agency,char
+Product Rating Custom Rating 1 Agency,product_rating_custom_1_rating_agency,char
+Registration Agent Applicable?,french_governing_law_registration_agent_required,boolean
+Dealer Address,dealer_address,text
+Target Market Risk Tolerance,target_market_risk_tolerance,char
+Syndicated Names Addresses Commitments,syndicated_names_addresses_commitments,text_list
+Margin (bps),extended_floating_margin,decimal
+Method of Distribution,method_of_distribution,text
+Issuer Call Redeemable in Part Minimum Period,issuer_call_redeemable_in_part_minimum_period,integer
+Listing Application Status,listing_application_has_been_made_or_expected,text
+ISIN Required?,isin_code_required,boolean
+Amendment to Eurozone Definition Required?,eurozone_amendment_required,boolean
+Negative Target Market Applicable?,mifid_negative_target_market_required,boolean
+Display S&P Rating?,ratings_sp_rating_required,boolean
+P&L Book,book_pnl,char
+Rate Multiplier Required?,floating_rate_multiplier_required,boolean
+Notice Period for Make-Whole Redemption,make_whole_notice_period,text
+Documentation Manager,documentation_manager,char
+Signatory Role,signatory_role,char
+Redemption upon the occurrence of an Early Redemption Event,early_redemption_event_details,text
+Form of the Notes,form_of_the_notes,text
+Issuer Call Optional Redemption Dates,issuer_call_optional_redemption_dates,date_list
+MiFID/MiFIR Target Market,mifid_target_market,text
+Change of Interest Basis Minimum Notification period,change_of_interest_basis_notification_days,integer
+Issuer Rating Custom Rating 1 Agency,issuer_rating_custom_1_rating_agency,char
+Product Rating Custom Rating 3 Agency,product_rating_custom_3_rating_agency,char
+Maximum Issuer Call Notice Period (days),issuer_call_notice_period_max,integer
+Moody's Rating,ratings_moodys_rating,text
+Relevant Benchmark Base,floating_relevant_benchmark_base,char
+Taps Funge Date,taps_funge_date,date
+Form of the Notes Bearer Exchange Date,form_of_the_notes_bearer_exchange_date,date
+Masse Defined as per Conditions?,french_governing_law_masse_as_per_conditions,boolean
+Swap Issuer Account Name for Swap Leg Currency,swap_issuer_fx_target_account_name_1,char
+Form of the Certificates,form_of_the_certificates,text
+Certification Required?,certification_required,boolean
+Issuing Agent,issuing_agent,char
+Dealer Contact Team,dealer_contact_team,char
+Issuer Call Notice Period Day Type,issuer_call_notice_period_days_type,text
+Issuer Call Notice Period Business Centres,issuer_call_notice_period_business_centres,text_list
+Series Size,series_size,integer
+Dealer Contact Email,dealer_contact_email,char
+Dealer Contact Phone,dealer_contact_phone,char
+Form of the Notes Registered,form_of_the_notes_registered,text
+Moody's Outlook,ratings_moodys_outlook,text
+Fitch Rating,ratings_fitch_rating,text
+Other Rating Agency's Rating Required?,ratings_other_ratings_agency_rating_required,boolean
+Other Rating Agency Details,ratings_other_ratings_agency,text
+Oother Rating Agency's Rating,ratings_other_ratings_agency_rating,text
+Payment Frequency,payment_frequency,text
+Fixed Determination Dates,fixed_determination_dates,date_list_no_year
+Certification Date,certification_date,date
+Relevant Benchmark Appears in ESMA/FCA Register?,floating_relevant_benchmark_appears,boolean
+CUSIP Required?,cusip_code_required,boolean
+Governing Law,governing_law,char
+Consolidation Provisions?,consolidation_provisions_required,boolean
+Fixed Rate Other Provisions Applicable?,fixed_other_provisions_required,boolean
+Relevant Benchmark Administrator,floating_relevant_benchmark_administrator,char
+Unmatured Coupons to Become Void upon Early Redemption?,unmatured_coupons_become_void_on_early_redemption,boolean
+Display Determination Dates?,fixed_determination_dates_required,boolean
+Are the Notes Partly Paid?,partly_paid_required,boolean
+Partly Paid Details,partly_paid_details,text
+Issuer Rating Custom Rating 3 Agency,issuer_rating_custom_3_rating_agency,char
+Consolidation Provisions,consolidation_provisions,docx
+Are These Instalment Notes?,instalment_notes_required,boolean
+CMU Code,cmu_code,char
+Display the Floating Interest Period Date?,floating_interest_period_date_required,boolean
+Floating Interest Period Date,floating_interest_period_date,text
+Interest Determination Manner,floating_interest_determination_manner,text
+Interest Determination Dates,floating_screen_rate_determination_dates_text,text
+Instalment Details,instalment_details,text
+Special Features?,special_features_required,boolean
+Listing Venue,listing_exchange,char
+Fixed Other Provisions,fixed_other_provisions,docx
+Currency (full Format),currency_long,char
+Issue Qualifies As an Eligible Liability?,mrel_eligible,boolean
+Coupon Rate (%),fixed_coupon_rate,decimal
+Counterparty A (issuer) Pays Basis Screen Rate Source,swap_counterparty_a_pays_fixing_screen_rate_source_1,char
+Swap #2 - Counterparty B Pays,swap_to_basis_2,char
+"""P""",floating_basis_sonia_lag_period,text
+Cmu Instrument Number,cmu_instrument_no,char
+Coupon Trigger Price 2,coupon_trigger_price_2,decimal
+Guarantor Rating (S&P),guarantor_rating_sp_rating,text
+Rate Multiplier,floating_rate_multiplier,text
+Other Parties to be Notified?,make_whole_parties_notified_required,boolean
+Further Target Market Criteria Required for Professional Clients and ECPs?,mifid_professional_further_target_criteria_required,boolean
+PRIIPs language,mifid_retail_sales_to_eea_prohibition,text
+Display Fitch Rating?,ratings_fitch_rating_required,boolean
+Distribution Channels,retail_distribution_channels,text
+Listing Exchange(s),listing_exchanges,text_list
+Dealer Fax,dealer_fax,char
+Trade Date,trade_date,date
+Display Moody's Rating?,ratings_moodys_rating_required,boolean
+Tranche Size,size,integer
+Issuer Call Optional Redemption Amount Calculation,issuer_call_optional_redemption_amount_calculation,text
+Exclusion of the Possibility to Request Identification Information of Noteholders,exclusion_of_possibility_to_request_identification_information_of_noteholders,boolean
+Issue Outside France?,issue_outside_france_required,boolean
+Signatory Email (as Lender for Drawdown Request / Borrower Advance),signatory_email_as_lender,char
+Issuer Call Min Redemption in Part Amount,issuer_call_min_redemption_in_part_amount,integer
+Issuer Call Max Redemption in Part Amount,issuer_call_max_redemption_in_part_amount,integer
+CMU Instrument Number Required?,cmu_instrument_no_required,boolean
+Substitution and Variation Applicable?,snp_substitution_and_variation_required,boolean
+Status and Ranking,status_and_ranking,docx
+Further Target Market Criteria for Professional Clients and Ecps,mifid_professional_further_target_criteria,text
+Issuer Rating Custom Rating 3 Outlook,issuer_rating_custom_3_rating_outlook,char
+Expected Ratings of the Notes Custom Rating 3 Agency,expected_rating_custom_3_rating_agency,char
+Guarantor Rating Custom Rating 1,guarantor_rating_custom_1_rating,char
+Special Features Details,special_features_details,text
+Product Rating,product_rating,text_list
+Clearing System,clearing_system,char
+Redenomination Renominalization Reconventioning Provisions,redenomination_renominalization_reconventioning_provisions,docx
+Change of Control Put Applicable?,change_of_control_put_required,boolean
+Initial Custody Arrangements,initial_custody_arrangements,text
+All Interest Payment Dates,extended_all_interest_payment_dates,date_list
+Number Definitive Certificates Initially Represented,number_definitive_certificates_init_represented,integer
+Solicited Bids or Unsolicited Offers,solicited_bids_or_unsolicited_offers,text
+Other Clearing Systems Applicable?,other_clearing_systems_required,boolean
+Other Clearing Systems,other_clearing_systems,text
+Third Party Information,third_party_information,text
+Issuer Top Disclaimer,issuer_top_disclaimer,docx
+Paying Agent,paying_agent,char
+Zero Formula,zero_formula,text
+Issuer Rating Custom Rating 2 Outlook,issuer_rating_custom_2_rating_outlook,char
+Expected Ratings of the Notes Custom Rating 2 Agency,expected_rating_custom_2_rating_agency,char
+All Distribution Channels Applicable?,mifid_retail_all_distribution_channels_required,boolean
+Tefra Category,tefra_category,text
+Bearer Exchange Date Applicable?,form_of_the_notes_bearer_exchange_date_required,boolean
+Date and Details of 3rd Party Opinion,green_bond_third_party_opinion,text
+Physical Settlement Required?,physical_settlement_required,boolean
+Calculation Type,extended_floating_overnight_calculation_type,char
+Date of Subscription Agreement,subscription_agreement_date,date
+Lead Manager(s),syndicated_lead_managers,text_list
+Expected Ratings of the Notes Custom Rating 1 Agency,expected_rating_custom_1_rating_agency,char
+Third Party Information Source,third_party_information_source,text
+Talons Dates,talons_dates,date_list
+Zero Calculation Agent,zero_calculation_agent,text
+Date of Approval by Guarantor Board,approval_guarantor_board_date,date
+Dual Currency?,dual_currency_required,boolean
+Stabilizing Managers (if Any),syndicated_stabilizing_managers,text_list
+Custom Field 3 Label,custom_issuer_termsheet_field_3_label,char
+Swap 1 Upfront Payment Notional,swap_upfront_payment_notional_1,decimal
+Counterparty A Pays Payment Delay Days,swap_counterparty_a_pays_payment_delay_days_1,integer
+Nominal Definitive Principal Amount,nom_definitive_principal_amt,integer
+Issuer Rating Custom Rating 1 Outlook,issuer_rating_custom_1_rating_outlook,char
+'As at' Date for which the Benchmark Admininstrator appears/does not appear on the ESMA Register,floating_relevant_benchmark_appears_date,date
+Basis,extended_floating_basis,char
+Other Parties to be Notified,make_whole_parties_notified,text
+Risk Indicator (SRI),mifid_risk_indicator,integer
+Target Market Client Needs,target_market_client_needs,char
+Date of Board approval for Notes obtained,approval_dates,date_list
+Distribution Channels Subject to Distributor's Suitability and Appropriateness Obligations under MiFID II?,mifid_retail_subject_to_distributor_suitability_required,boolean
+Swap Issuer Bank Name for Bond Leg Currency,swap_issuer_fx_base_bank_name_1,char
+Short Form of Relevant Benchmark Administ,floating_relevant_benchmark_administrator_short_form,char
+Coupon Rate 2,equity_linked_coupon_rate_2,decimal
+Reset Screen Rate Source,reset_screen_rate_source,char
+Dual Currency Rate of Exchange,dual_currency_rate_of_exchange,char
+Product Rating (Moody's),product_rating_moodys_rating,text
+Min Denom,min_denom_notional,integer
+Display Increment?,increment_required,boolean
+Clean-Up Call Notice Period Day Type,clean_up_call_notice_period_days_type,char
+Display Net Proceeds?,net_proceeds_required,boolean
+Coupon Amount,fixed_coupon_amount,decimal
+MiFIR manufacturers,mifir_manufacturers,text_list
+Instalment Date(s),instalment_dates,date_list
+Other Final Terms Applicable?,other_final_terms_required,boolean
+Reference Banks,floating_reference_banks,text_list
+CMU Paying Agent Required?,cmu_paying_agent_required,boolean
+Dealer Clearing,dealer_clearing,char
+Custom Field 4 Label,custom_issuer_termsheet_field_4_label,char
+Issuer Rating Custom Rating 2,issuer_rating_custom_2_rating,char
+Indication of Yield,indication_of_yield,decimal
+Negative Target Market,mifid_negative_target_market,docx
+Dealer_company_logo,dealer_company_logo,image
+Counterparty A (issuer) Pays Basis Screen Rate Source,swap_counterparty_a_pays_fixing_screen_rate_source_3,char
+Conditions Precedent,syndicated_conditions_precedent,text
+Clean-Up Call Notice Period Business Centres,clean_up_call_notice_period_business_centres,text_list
+Masse Alternate Representative Name & Address,french_governing_law_masse_alternate_representative_name_address,text
+Masse Renumeration?,french_governing_law_masse_renumeration_required,boolean
+Masse Renumeration,french_governing_law_masse_renumeration,text
+Prohibit Sale to Belgian Consumers?,mifid_prohibition_sales_belgian_consumers_required,boolean
+Under Section 309b Are These Excluded Investment Products?,singapore_section_309b_excluded_investment_products,boolean
+Relevant Number of Decimal Places,floating_overnight_relevant_decimal_places,integer
+Issuer Rating Custom Rating 3,issuer_rating_custom_3_rating,char
+Issuer Rating Outlook (Fitch),issuer_rating_fitch_outlook,text
+Instalment Amount(s),instalment_amounts,text_list
+Initial/Final Exchange Required?,swap_initial_final_exchange_required_1,boolean
+Product Rating (custom Rating 3),product_rating_custom_3_rating,char
+Issuer Rating (Fitch),issuer_rating_fitch_rating,text
+Issuer Rating Outlook (Moody's),issuer_rating_moodys_outlook,text
+Day Count Fraction,day_count_fraction,text
+Issuer Rating Outlook (S&P),issuer_rating_sp_outlook,text
+Issuer Rating (S&P),issuer_rating_sp_rating,text
+Guarantor Rating (Moody's),guarantor_rating_moodys_rating,text
+Guarantor Rating Custom Rating 2,guarantor_rating_custom_2_rating,char
+Drawdown Request Date,drawdown_request_date,date
+Registered Global Covered Bond Registered in the Name of,form_of_the_notes_registered_with_whom,text
+Investor Top Disclaimer,investor_top_disclaimer,docx
+Swap Top Disclaimer,swap_top_disclaimer,docx
+Make Whole Reference Issuer,make_whole_reference_issuer,char
+Date of Resolution of Guarantor Supervisory Board,approval_guarantor_supervisory_board_date,date
+Account Number,payment_instructions_account_number,char
+Swap 2 Upfront Payer,swap_upfront_payer_2,char
+Counterparty A Pays Lookback Period,swap_counterparty_a_pays_period_p_2,integer
+Other Terms and Conditions Required?,other_terms_conditions_required,boolean
+Other Final Terms,other_final_terms,docx
+Determination Method,swap_counterparty_a_pays_basis_determination_method_3,char
+Global Note Type,global_note_type,text
+Swap Issuer Entity,swap_issuer_entity,char
+Swap Trade Reference,swap_trade_reference,char
+Coupon Rate 1,equity_linked_coupon_rate_1,decimal
+Moody's rating legal entity,moodys_rating_entity,char
+Mid Swap Maturity,mid_swap_maturity,char
+Additional Redemption Conditions,additional_redemption_conditions,docx
+Issuer Clearing,issuer_clearing,char
+Guarantor Rating (Fitch),guarantor_rating_fitch_rating,text
+Guarantor Rating Outlook (Moody's),guarantor_rating_moodys_outlook,text
+Signatory Location,signatory_location,char
+Internal Swap Floating Rate Payment Dates,internal_swap_counterparty_a_pays_payment_dates_1,date_list_no_year
+Supplement AMF Approval Numbers,supplement_approval_numbers,text_list
+Issuer Call Optional Redemption Amount,issuer_call_optional_redemption_amount,decimal
+Put Option Type,put_option_type,char
+Strike Prices,strike_prices,decimal_list
+Selling Restrictions,selling_restrictions,text
+Guarantor Custom Rating 2 Agency,guarantor_rating_custom_2_rating_agency,char
+Product Rating (S&P),product_rating_sp_rating,text
+Custom Field 2 Label,custom_issuer_termsheet_field_2_label,char
+Board approval date,board_approval_date,date
+FX Base Currency,swap_fx_base_currency_1,text
+FX Target Currency,swap_fx_target_currency_1,text
+Upfront Payment,swap_upfront_payment_1,text
+Mutual Break Clause,swap_mutual_break_clause_1,text
+Custom Field 4 Required?,custom_issuer_termsheet_field_4_required,boolean
+Product Rating Outlook (S&P),product_rating_sp_outlook,text
+Expected Ratings of the Notes (Fitch),expected_rating_fitch_rating,char
+Expected Ratings of the Notes (Moody's),expected_rating_moodys_rating,char
+Expected Ratings of the Notes (S&P),expected_rating_sp_rating,char
+Counterparty A (issuer) Pays Basis Screen Page,swap_counterparty_a_pays_fixing_screen_rate_page_1,char
+Reset Screen Rate Time,reset_screen_rate_time,char
+Issuer_company_logo,issuer_company_logo,image
+Borrower Signatory Name,signatory_name_borrower,char
+Screen Rate Source,extended_floating_basis_screen_rate_source,char
+ECB Eligibility Field Applicable?,ecb_eligibility_display_required,boolean
+Time of Execution,time_of_execution,char
+One Business Day Prior to Settlement Date,settlement_date_minus_one_biz_day,date
+Calculation Amount,calculation_amount,integer
+Business Day Convention,business_day_convention,text
+Guarantor Rating Custom Rating 2 Outlook,guarantor_rating_custom_2_rating_outlook,char
+Swap to Currency,swap_to_basis_currency_1,text
+FX Rate,swap_fx_rate_1,decimal
+Counterparty A (issuer) Pays Linear Interpolation,swap_counterparty_a_pays_linear_interpolation_1,text
+Product Rating (custom Rating 1),product_rating_custom_1_rating,char
+Counterparty A (issuer) Pays Funding Schedule,swap_counterparty_a_pays_funding_schedule_1,char
+Mutual Break Clause Required?,swap_mutual_break_clause_required_1,boolean
+Custom Field 2 Value,custom_issuer_termsheet_field_2_value,text
+Guarantor Rating Custom Rating 1 Outlook,guarantor_rating_custom_1_rating_outlook,char
+Linear Interpolation,floating_linear_interpolation,text
+Product Rating (Fitch),product_rating_fitch_rating,text
+Determination Agent Required?,determination_agent_required,boolean
+Product Rating (custom Rating 2),product_rating_custom_2_rating,char
+Issuer Will Make Principal and Interest (if Applicable) Available at CBF,transfer_payment_to_clearing_required,boolean
+Business Days for Payment,business_days_for_payment,text_list
+Counterparty A (issuer) Pays,swap_from_basis_1,char
+Are These Exempt Notes?,exempt_notes_required,boolean
+Counterparty A (issuer) Payment Dates,swap_counterparty_a_pays_payment_dates_1,date_list_no_year
+Reoffer Yield (%),reoffer_yield,decimal
+Custom Field 3 Required?,custom_issuer_termsheet_field_3_required,boolean
+Counterparty A (issuer) Pays Linear Interpolation Required?,swap_counterparty_a_pays_linear_interpolation_required_2,boolean
+Counterparty A (issuer) Pays Linear Interpolation Required?,swap_counterparty_a_pays_linear_interpolation_required_1,boolean
+Counterparty A (issuer) Pays Linear Interpolation,swap_counterparty_a_pays_linear_interpolation_2,text
+Counterparty A (issuer) Pays Basis Number of Days Prior to Fixing,swap_counterparty_a_pays_days_prior_to_fixing_1,integer
+Number of Calendar Days of Accrued Interest,tap_accrued_interest_days,integer
+Accrued Interest Amount,tap_accrued_interest_notional,decimal
+Custom Field 3 Value,custom_issuer_termsheet_field_3_value,text
+Time at which the Price of the Make-Whole Benchmark Security is to be assessed,make_whole_reference_time_place,char
+Method of Delivery for Physical Settlement,physical_settlement_method_of_delivery,text
+Reference Bond for Make-Whole Redemption,make_whole_reference_bond,text
+Display Time of Execution?,time_of_execution_required,boolean
+Product Category,mifid_product_category,char
+Temporary Note Required?,form_of_the_notes_bearer_temporary_note_required,boolean
+Date of Confirmation by Shareholder,approval_shareholder_confirmation_date,date
+Swap 2 Upfront Payment Currency,swap_upfront_payment_currency_2,char
+Swap Issuer SWIFT Code for Bond Leg Currency,swap_issuer_fx_base_swift_code_1,char
+Counterparty A (issuer) Pays Payment Frequency,swap_counterparty_a_payment_frequency_1,text
+Counterparty A (issuer) Pays Business Day Convention,swap_counterparty_a_pays_business_day_convention_1,text
+Coupon Rate 3,equity_linked_coupon_rate_3,decimal
+S&P rating legal entity,sp_rating_entity,char
+Settlement Amount,settlement_amount,decimal
+ISDA Method Number of Days,floating_isda_period_number_of_days,integer
+Status of the Notes,status_of_the_notes,text
+Secured Net Debt / Total Assets Covenant Applicable?,secured_net_debt_total_assets_covenant_required,boolean
+Stabilizing Managers Applicable?,syndicated_stabilizing_managers_required,boolean
+Guarantor Rating Custom Rating 3 Outlook,guarantor_rating_custom_3_rating_outlook,char
+Guarantor Rating Custom Rating 3,guarantor_rating_custom_3_rating,char
+Guarantor Custom Rating 3 Agency,guarantor_rating_custom_3_rating_agency,char
+Guarantor Custom Rating 1 Agency,guarantor_rating_custom_1_rating_agency,char
+Expected Ratings of the Notes,expected_rating,text_list
+Product Rating Outlook (custom Rating 1),product_rating_custom_1_rating_outlook,char
+Is there an Upfront Payment to the Issuer?,swap_upfront_payment_required_3,boolean
+Product Rating Outlook (custom Rating 2),product_rating_custom_2_rating_outlook,char
+Product Rating Outlook (custom Rating 3),product_rating_custom_3_rating_outlook,char
+Product Rating (DBRS),product_rating_dbrs_rating,char
+Product Rating Outlook (DBRS),product_rating_dbrs_outlook,char
+Expected Ratings of the Notes (DBRS),expected_rating_dbrs_rating,char
+Issuer Counsel Required on Trade?,legal_issuer_counsel_required,boolean
+Administrator Signatory Name,signatory_name_administrator,char
+Counterparty A Pays Basis Currency,swap_from_basis_currency_2,char
+Mutual Break Clause Required?,swap_mutual_break_clause_required_2,boolean
+Initial/Final Exchange Required?,swap_initial_final_exchange_required_2,boolean
+FX Rate,swap_fx_rate_2,decimal
+FX Target Currency,swap_fx_target_currency_2,char
+Upfront Payment,swap_upfront_payment_2,text
+Swap #2 to Basis Currency,swap_to_basis_currency_2,char
+Mutual Break Clause,swap_mutual_break_clause_3,text
+Upfront Payment,swap_upfront_payment_3,text
+FX Rate,swap_fx_rate_3,decimal
+FX Target Currency,swap_fx_target_currency_3,text
+Reoffer Price (%),reoffer_price,decimal
+Swap #3 - Counterparty A (issuer) Pays,swap_from_basis_3,char
+Swap #2 - Counterparty A (issuer) Pays,swap_from_basis_2,char
+Swap #1 - Counterparty B Pays,swap_to_basis_1,char
+Is there an Upfront Payment to the Issuer?,swap_upfront_payment_required_2,boolean
+Floating Basis Calculation Description,floating_basis_calculation_text,text
+FX Base Currency,swap_fx_base_currency_3,text
+Initial/Final Exchange Required?,swap_initial_final_exchange_required_3,boolean
+Swap #3 to Basis Currency,swap_to_basis_currency_3,text
+Counterparty B Linear Interpolation Required?,swap_counterparty_b_pays_linear_interpolation_required_3,boolean
+Swap #3 from Basis Currency,swap_from_basis_currency_3,text
+Counterparty B Pays Linear Interpolation,swap_counterparty_b_pays_linear_interpolation_2,text
+Mutual Break Clause Required?,swap_mutual_break_clause_required_3,boolean
+Counterparty B Linear Interpolation Required?,swap_counterparty_b_pays_linear_interpolation_required_2,boolean
+Counterparty B Linear Interpolation,swap_counterparty_b_pays_linear_interpolation_3,text
+Counterparty B Linear Interpolation Required?,swap_counterparty_b_pays_linear_interpolation_required_1,boolean
+Counterparty B Pays Linear Interpolation,swap_counterparty_b_pays_linear_interpolation_1,text
+Swap Termsheet Count,swap_termsheet_count,integer
+Custom Field 1 Label,custom_swap_termsheet_1_field_1_label,char
+Swap Size Target Converted 1,swap_size_target_converted_1,decimal
+Custom Field 1 Value,custom_swap_termsheet_1_field_1_value,text
+Swap Size Base Converted 2,swap_size_base_converted_2,decimal
+Swap Size Target Converted 2,swap_size_target_converted_2,decimal
+Swap Size Target Converted 3,swap_size_target_converted_3,decimal
+Swap Size Base Converted 3,swap_size_base_converted_3,decimal
+Swap Size Base Converted 1,swap_size_base_converted_1,decimal
+Make-Whole Margin (%),make_whole_margin,decimal
+Calculation Method,mifid_calculation_method,char
+Counterparty A (issuer) Pays Day Count Fraction,swap_counterparty_a_pays_day_count_fraction_1,text
+Callable Structure,issuer_call_callable_structure,char
+Senior Co-Lead Manager(s),syndicated_senior_co_lead_managers,text_list
+Co-Lead Manager(s),syndicated_co_lead_managers,text_list
+ISIN Code of the Make-Whole Pricing Benchmark,make_whole_reference_isin,char
+Issuer Party First Interest Payment Date,swap_counterparty_a_first_interest_payment_date_3,date
+Swap 2 Upfront Payment Notional,swap_upfront_payment_notional_2,decimal
+Swap Issuer Reference,swap_issuer_reference_1,char
+Counterparty A (issuer) Pays Business Day Adjustment,swap_counterparty_a_pays_business_day_adjustment_1,text
+Digital Step Count,digital_step_number,integer
+Fitch rating legal entity,fitch_rating_entity,char
+U.S Selling Restrictions,us_selling_restrictions,text
+Custom Field 1 Label,custom_issuer_termsheet_field_1_label,char
+Custom Field 2 Required?,custom_issuer_termsheet_field_2_required,boolean
+Custom Field 2 Required?,custom_swap_termsheet_1_field_2_required,boolean
+Custom Field 2 Label,custom_swap_termsheet_1_field_2_label,char
+Custom Field 2 Value,custom_swap_termsheet_1_field_2_value,text
+Custom Field 1 Value,custom_issuer_termsheet_field_1_value,text
+Add Custom Fields to Swap Termsheet #1?,custom_swap_termsheet_1_field_1_required,boolean
+Custom Field 1 Label,custom_swap_termsheet_2_field_1_label,char
+Custom Field 1 Label,custom_swap_termsheet_3_field_1_label,char
+Add Custom Fields to Swap Termsheet #2?,custom_swap_termsheet_2_field_1_required,boolean
+Add Custom Fields to Swap Termsheet #3?,custom_swap_termsheet_3_field_1_required,boolean
+Custom Field 1 Value,custom_swap_termsheet_2_field_1_value,text
+Custom Field 2 Label,custom_swap_termsheet_3_field_2_label,char
+Counterparty A (issuer) Annual Interest Payment Dates,swap_counterparty_a_pays_payment_dates_3,date_list_no_year
+Counterparty A (issuer) Annual Interest Payment Dates,swap_counterparty_a_pays_payment_dates_2,date_list_no_year
+Counterparty A (issuer) Pays Margin (bps),swap_counterparty_a_pays_floating_margin_2,decimal
+Counterparty A (issuer) Fixing Screen Page,swap_counterparty_a_pays_fixing_screen_rate_page_3,char
+Counterparty A (issuer) Fixing Screen Page,swap_counterparty_a_pays_fixing_screen_rate_page_2,char
+Counterparty A (issuer) Days Prior to Fixing,swap_counterparty_a_pays_days_prior_to_fixing_3,integer
+Counterparty A (issuer) Days Prior to Fixing,swap_counterparty_a_pays_days_prior_to_fixing_2,integer
+Counterparty A (issuer) Day Count Fraction,swap_counterparty_a_pays_day_count_fraction_3,char
+Counterparty A (issuer) Day Count Fraction,swap_counterparty_a_pays_day_count_fraction_2,char
+Counterparty A (issuer) Business Days for Fixing,swap_counterparty_a_pays_business_days_for_fixing_3,char
+Counterparty A (issuer) Business Days for Fixing,swap_counterparty_a_pays_business_days_for_fixing_2,char
+Counterparty A (issuer) Business Day Convention,swap_counterparty_a_pays_business_day_convention_3,char
+Counterparty A (issuer) Payment Frequency,swap_counterparty_a_payment_frequency_3,char
+Swap #3 - Counterparty B Pays,swap_to_basis_3,char
+Add Custom Fields to the Bond Termsheet?,custom_issuer_termsheet_field_1_required,boolean
+Counterparty A (issuer) Pays Margin (bps),swap_counterparty_a_pays_floating_margin_3,decimal
+Custom Field 2 Required?,custom_swap_termsheet_2_field_2_required,boolean
+Custom Field 2 Required?,custom_swap_termsheet_3_field_2_required,boolean
+Custom Field 2 Value,custom_swap_termsheet_2_field_2_value,text
+Custom Field 2 Value,custom_swap_termsheet_3_field_2_value,text
+Minimum Issuer Call Notice Period (days),issuer_call_notice_period_min,integer
+Specify Conflicts of Interest,conflicts_of_interest,text
+Secured Net Debt / Total Assets Covenant Limit (%),secured_net_debt_total_assets_covenant_limit,integer
+Number of Days Prior to Fixing,floating_number_of_days_prior_to_fixing,integer
+Tap Fungibility Status,taps_fungibility_status,text
+The First Index Basis to Interpolate from,floating_linear_interpolation_first_index,text
+The Second Index Basis to Interpolate from,floating_linear_interpolation_second_index,text
+Number of Days Prior to Fixing,extended_floating_number_of_days_prior_to_fixing,integer
+Intermediary(ies) in Secondary Trading,distribution_secondary_intermediary_details,text
+Accrual Period End Dates Required?,floating_interest_acrrual_period_end_dates_required,boolean
+Intermediary(ies) in Secondary Trading Required?,distribution_secondary_intermediary_details_required,boolean
+Events of Default: Insolvency Applicable?,sp_events_of_default_insolvency_required,boolean
+Lookback Days,floating_lookback_days,integer
+Interest Accrual Period End Dates (# Days),floating_interest_accrual_period_end_dates,integer
+Events of Default: Breach of Other Obligations Applicable?,sp_events_of_default_breach_of_other_obligations_required,boolean
+Floating Basis Calculation Type,floating_basis_calculation_type,char
+Lookback Days Applicable?,floating_lookback_days_applicable,boolean
+SOFR Index End Applicable?,floating_sofr_index_end_required,boolean
+Form of the Notes Registered,form_of_the_notes_registered,text
+Issuer Party Pays (%),swap_counterparty_a_fixed_coupon_rate_2,decimal
+Issuer Party First Interest Payment Date,swap_counterparty_a_first_interest_payment_date_2,date
+Issuer Party Pays (%),swap_counterparty_a_fixed_coupon_rate_3,decimal
+Issuer Pays Payment Frequency,swap_counterparty_a_payment_frequency_2,char
+Issuer Business Day Adjustment,swap_counterparty_a_pays_business_day_adjustment_2,char
+Issuer Pays Business Day Adjustment,swap_counterparty_a_pays_business_day_adjustment_3,char
+Issuer Pays Business Day Convention,swap_counterparty_a_pays_business_day_convention_2,char
+Interest Payment Delay Applicable?,floating_interest_payment_delay_required,boolean
+SOFR Index Start Applicable?,floating_sofr_index_start_required,boolean
+Events of Default: Non-Payment Applicable?,sp_events_of_default_non_payment_required,boolean
+Observation Shift Days (# Days),floating_observation_shift_days,integer
+Dealer for the Day,dealer_for_the_day,boolean
+Administrator Signatory Email,signatory_email_administrator,char
+Fallback Provisions Required?,fallback_provisions_required,boolean
+Fallback Provisions Required?,swap_fallback_provisions_1_required,boolean
+Fallback Provisions Required?,swap_fallback_provisions_2_required,boolean
+Fallback Provisions Required?,swap_fallback_provisions_3_required,boolean
+Use of Proceeds,ts_use_of_proceeds,text
+Custom Field 4 Value,custom_issuer_termsheet_field_4_value,text
+Appointment of a Holders' Representative by Resolution Passed by Holders,german_bond_act_holders_representative_by_resolution_required,boolean
+Date of Decision D'emission,syndicated_decision_emission_date,date
+Temporary Common Code,temporary_common_code,char
+Floating Rate Observation Method,floating_observation_method,char
+Fallback Provisions,swap_fallback_provisions_1,docx
+Swap Call Notice Period Day Type,swap_call_notice_period_days_type,char
+Minimum Swap Call Notice Period (days),swap_call_notice_period_min,integer
+Does the Issuer Fund Against a Government Bond?,govie_pricing_required,boolean
+Carve-Out for the EU Blocking Regulation Applies to New Dealer?,eu_blocking_regulation_required,boolean
+Series Number,series_number,char
+Tranche Number,tranche_number,char
+Is the Dealer a Covered Entity Subject to the US Special Resolution Regime?,dealer_covered_entity_us_special_resolution,boolean
+Counterparty A (issuer) Business Days for Fixing,swap_counterparty_a_pays_business_days_for_fixing_1,char
+Redemption Price (%),redemption_price,decimal
+Are the Notes to be Offered in Belgium?,form_of_the_notes_not_physically_belgium_required,boolean
+Custom Field 1 Should be Included in,custom_issuer_termsheet_field_1_target,text_list
+Custom Field 2 Should be Included in,custom_issuer_termsheet_field_2_target,text_list
+Is this a Green Bond?,green_bond_issuance,boolean
+Relevant Benchmark Administrator,extended_floating_relevant_benchmark_administrator,char
+Is there a 3rd Party Opinion?,green_bond_third_party_opinion_exists,boolean
+Custom Field 3 Should be Included in,custom_issuer_termsheet_field_3_target,text_list
+Intended to be Held in a Manner Which Would Allow Eurosystem Eligibility,ecb_eligible,boolean
+Custom Field 4 Should be Included in,custom_issuer_termsheet_field_4_target,text_list
+Display any Third Party Information?,third_party_information_required,boolean
+Is this Tap off of the Current Base Prospectus?,taps_uses_current_prospectus,boolean
+Total Issue Size Prior to this Issue,taps_original_size,integer
+Are there any Conflicts of Interest,conflicts_of_interest_applicable,boolean
+Issue to be Admitted to the Professional Segment?,listing_professional_segment_required,boolean
+Is this a Fungible Issue (a Tap)?,taps_fungible_issue_required,boolean
+Solve For,pricer_solve_for,char
+Negative Pledge Covenant Applicable?,negative_pledge_covenant_required,boolean
+Calculation and Delivery Agent Required for Physical Settlement?,physical_settlement_calculation_delivery_agent_required,boolean
+Issuer's Short Name,issuer_short_name,char
+Residual Maturity Call Required?,residual_maturity_call_required,boolean
+Use of Proceeds,use_of_proceeds,docx
+Notice Period for Exchange for Definitive Notes (days),form_of_the_notes_bearer_exchange_notice_period,integer
+# of Senior Co-Lead Manager(s),syndicated_senior_co_lead_manager_counter,integer
+Fallback Provisions,swap_fallback_provisions_2,docx
+Fallback Provisions,swap_fallback_provisions_3,docx
+Include selling restrictions for the UK?,additional_selling_restrictions_uk_required,boolean
+Make-Whole Calculation Agent Required?,make_whole_calculation_agent_required,boolean
+Floating Overnight Payment Frequency for Extended Period,extended_floating_overnight_payment_frequency,char
+Swap Issuer Sort Code for Swap Leg Currency,swap_issuer_fx_target_sort_code_1,char
+Coupon Trigger Price 1,coupon_trigger_price_1,decimal
+Reset Margin 1,reset_margin_1,decimal
+Do You Want to Display the Settlement Amount on the Investor Termsheet?,net_proceeds_show_investor_required,boolean
+Expected Rating Outlook (Scope),expected_rating_scope_outlook,char
+ISDA Observation Method,floating_isda_observation_method,char
+Internal Swap First Interest Payment Date,internal_swap_counterparty_a_first_interest_payment_date_1,date
+Indices Basket,indices_basket,text_list
+Display Guarantor Rating?,guarantor_rating_required,boolean
+Refer to the FISN Code on the ANNA website?,fisn_code_anna_website_required,boolean
+indices_basket_multiple_exchanges_required,indices_basket_multiple_exchanges_required,text_list
+indices_basket_sponsors,indices_basket_sponsors,text_list
+Short Name of Settlement Lead Manager,syndicated_settlement_lead_manager_short_name,char
+Which ICSD will act as common depositary/common safekeeper?,clearing_settlement_ICSD,char
+Allotment notification to be sent to Managers?,allotment_notification_required,boolean
+Subscription Clause Reference,subscription_clause_reference,text
+Will payment be made to the Issuer directly or to its Receiving Bank?,payment_issuer_or_receiving_bank,char
+Knock-Out Bonus Redemption Applicable?,knock_out_bonus_redemption_required,boolean
+A20_HighStrike2,SEDL_A20_HighStrike2,text
+A20_HighStrike3,SEDL_A20_HighStrike3,text
+A20_CusColAgreeCat,SEDL_A20_CusColAgreeCat,char
+A3_Direction_1,SEDL_A3_Direction_1,char
+A3_Direction_2,SEDL_A3_Direction_2,char
+A3_Direction_3,SEDL_A3_Direction_3,char
+A5_Direction_1,SEDL_A5_Direction_1,char
+A5_Direction_2,SEDL_A5_Direction_2,char
+A5_Direction_3,SEDL_A5_Direction_3,char
+A14_Amount_1,SEDL_A14_Amount_1,integer
+A14_Amount_2,SEDL_A14_Amount_2,integer
+A14_Amount_3,SEDL_A14_Amount_3,integer
+A11_CpnLowTrigger_3,SEDL_A11_CpnLowTrigger_3,decimal
+A11_CpnHighTrigger_3,SEDL_A11_CpnHighTrigger_3,decimal
+A11_CallableTrigger_3,SEDL_A11_CallableTrigger_3,decimal
+A11_TermKILevel_3,SEDL_A11_TermKILevel_3,decimal
+A20_Formula,SEDL_A20_Formula,text
+A20_Calendar,SEDL_A20_Calendar,char
+A20_Schedule,SEDL_A20_Schedule,char
+A20_PeriodEnd,SEDL_A20_PeriodEnd,char
+A20_PeriodStart,SEDL_A20_PeriodStart,char
+A19_StrikeSched3,SEDL_A19_StrikeSched3,text
+A19_StrikeSched2,SEDL_A19_StrikeSched2,text
+A19_StrikeSched1,SEDL_A19_StrikeSched1,text
+A8_BarrierTerms,SEDL_A8_BarrierTerms,char
+A8_Schedule,SEDL_A8_Schedule,char
+A8_From,SEDL_A8_From,char
+A8_Resultant,SEDL_A8_Resultant,char
+A8_Underlying,SEDL_A8_Underlying,char
+A8_BarrierType,SEDL_A8_BarrierType,char
+A8_Barrier,SEDL_A8_Barrier,char
+A14_Type,SEDL_A14_Type,char
+A14_Currency,SEDL_A14_Currency,char
+A16_AdditionalFlowType,SEDL_A16_AdditionalFlowType,char
+A16_AdditionalFlowCurrency,SEDL_A16_AdditionalFlowCurrency,char
+A16_AdditionalFlowDate,SEDL_A16_AdditionalFlowDate,char
+A13_MX_Group,SEDL_A13_MX_Group,char
+A13_MX_Family,SEDL_A13_MX_Family,char
+A7_3_FexchStrike,SEDL_A7_3_FexchStrike,decimal
+A7_3_ReferenceMeasure,SEDL_A7_3_ReferenceMeasure,decimal
+A7_3_Index,SEDL_A7_3_Index,char
+A7_2_FexchStrike,SEDL_A7_2_FexchStrike,decimal
+A7_2_ReferenceMeasure,SEDL_A7_2_ReferenceMeasure,decimal
+A7_2_Index,SEDL_A7_2_Index,char
+A9_ValuationDate,SEDL_A9_ValuationDate,date
+A7_1_FexchStrike,SEDL_A7_1_FexchStrike,decimal
+A7_1_ReferenceMeasure,SEDL_A7_1_ReferenceMeasure,decimal
+A7_1_Index,SEDL_A7_1_Index,char
+A9_ObsKnock,SEDL_A9_ObsKnock,char
+A9_BreachRate,SEDL_A9_BreachRate,integer
+A9_BreachDate,SEDL_A9_BreachDate,char
+A9_ObsTime,SEDL_A9_ObsTime,char
+A9_Knock,SEDL_A9_Knock,char
+A9_KIType,SEDL_A9_KIType,char
+A9_Payoff,SEDL_A9_Payoff,char
+A9_Terms,SEDL_A9_Terms,char
+A9_Isforward,SEDL_A9_Isforward,char
+A9_Mode,SEDL_A9_Mode,char
+A9_NbUL,SEDL_A9_NbUL,integer
+A4_internalFrequencyRatio,SEDL_A4_internalFrequencyRatio,decimal
+A6_FixingScheduleDetail,SEDL_A6_FixingScheduleDetail,char
+A6_FixingSchedule,SEDL_A6_FixingSchedule,char
+A6_PaymentSchedule,SEDL_A6_PaymentSchedule,char
+A6_ScheduleGenerator,SEDL_A6_ScheduleGenerator,char
+A6_CalculationStart,SEDL_A6_CalculationStart,char
+A6_PaymentMethod,SEDL_A6_PaymentMethod,char
+A6_FixingMethod,SEDL_A6_FixingMethod,char
+A6_FixingCalendar,SEDL_A6_FixingCalendar,char
+A5_InitialExchange,SEDL_A5_InitialExchange,char
+A5_UpfrontStub,SEDL_A5_UpfrontStub,char
+A5_Convention,SEDL_A5_Convention,char
+A5_Factor,SEDL_A5_Factor,integer
+A5_Currency,SEDL_A5_Currency,char
+A5_IndexName,SEDL_A5_IndexName,char
+A5_IndexType,SEDL_A5_IndexType,char
+A7_3_NoCashSetmnt,SEDL_A7_3_NoCashSetmnt,char
+A7_1_ObservtnStrike,SEDL_A7_1_ObservtnStrike,char
+A7_1_NoPhysicalDel,SEDL_A7_1_NoPhysicalDel,char
+A7_2_NoPhysicalDel,SEDL_A7_2_NoPhysicalDel,char
+A7_3_NoPhysicalDel,SEDL_A7_3_NoPhysicalDel,char
+A7_1_NoCashSetmnt,SEDL_A7_1_NoCashSetmnt,char
+A7_2_ObservtnStrike,SEDL_A7_2_ObservtnStrike,char
+A7_3_ObservtnStrike,SEDL_A7_3_ObservtnStrike,char
+A7_2_NoCashSetmnt,SEDL_A7_2_NoCashSetmnt,char
+A4_stubCouponLength,SEDL_A4_stubCouponLength,char
+A4_FixingDeductionFormula,SEDL_A4_FixingDeductionFormula,char
+A4_FixingScheduleDetail,SEDL_A4_FixingScheduleDetail,char
+A4_FixingSchedule,SEDL_A4_FixingSchedule,char
+A4_PaymentDeductionFormula,SEDL_A4_PaymentDeductionFormula,char
+A4_PaymentSchedule,SEDL_A4_PaymentSchedule,char
+A4_ScheduleGenerator,SEDL_A4_ScheduleGenerator,char
+A4_CalculationStart,SEDL_A4_CalculationStart,char
+A4_PaymentMethod,SEDL_A4_PaymentMethod,char
+A4_FixingMethod,SEDL_A4_FixingMethod,char
+A4_FixingCalendar,SEDL_A4_FixingCalendar,char
+A4_PaymentCalendar,SEDL_A4_PaymentCalendar,char
+A3_FinalExchange,SEDL_A3_FinalExchange,char
+A3_InitialExchange,SEDL_A3_InitialExchange,char
+A3_UpfrontStub,SEDL_A3_UpfrontStub,char
+A3_Convention,SEDL_A3_Convention,char
+A3_Factor,SEDL_A3_Factor,integer
+A3_BasketShifter,SEDL_A3_BasketShifter,char
+A3_IndexName,SEDL_A3_IndexName,char
+A3_IndexType,SEDL_A3_IndexType,char
+A3_StubPeriod,SEDL_A3_StubPeriod,char
+A2_Trader,SEDL_A2_Trader,char
+A2_InternalCounterparty_3,SEDL_A2_InternalCounterparty_3,char
+A2_InternalCounterparty_1,SEDL_A2_InternalCounterparty_1,char
+A2_Typology,SEDL_A2_Typology,char
+A2_TemplateGenerator,SEDL_A2_TemplateGenerator,char
+A1_TradePurpose,SEDL_A1_TradePurpose,char
+A1_UniqueID_3,SEDL_A1_UniqueID_3,char
+A1_UniqueID_2,SEDL_A1_UniqueID_2,char
+A1_UniqueID_1,SEDL_A1_UniqueID_1,char
+A1_TradingDept,SEDL_A1_TradingDept,char
+A1_MXDestination,SEDL_A1_MXDestination,char
+A1_ReplyEmail,SEDL_A1_ReplyEmail,char
+A1_SEDLUser,SEDL_A1_SEDLUser,char
+A2_Book_1,SEDL_A2_Book_1,char
+A3_Spread,SEDL_A3_Spread,decimal
+A16_AdditionalFlowAmount_1,SEDL_A16_AdditionalFlowAmount_1,decimal
+A16_AdditionalFlowAmount_2,SEDL_A16_AdditionalFlowAmount_2,decimal
+A20_LadderDates,SEDL_A20_LadderDates,char
+A4_FirstFixing1,SEDL_A4_FirstFixing1,decimal
+A9_StartDate,SEDL_A9_StartDate,char
+Strategy Number,SEDL_A2_Strategy1,char
+A20_C1,SEDL_A20_C1,decimal
+A20_C2,SEDL_A20_C2,decimal
+Underlying Indices Tickers,indices_basket_tickers,text_list
+Pegasus Code,pegasus_code,char
+Linked Indices BBG Pages,indices_basket_bbg_pages,text_list
+Issuer Address,issuer_address,text
+SEDL_A8_DeductionFormula,SEDL_A8_DeductionFormula,char
+SEDL_A8_Calendar,SEDL_A8_Calendar,char
+Additional Business Centres that are included in the annex,additional_business_centres_in_annex,text_list
+Scheduled Trading Day or Business Day?,scheduled_trading_day_or_business_day,char
+Are the Underlying Assets ETFs?,is_etf_linked,boolean
+Underlying ETF Reference Indices,etf_basket_reference_indices,text_list
+Underlying ETF Management Companies,etf_basket_management_companies,text_list
+Screen Rate Determination Page,screen_rate_determination_page,text
+Mid-swap Yield Interpolation Applicable?,mid_swap_yield_interpolation_required,boolean
+Mid-swap Yield Interpolation Details,mid_swap_yield_interpolation_details,text
+Mid-swap Yield Forward Effect Applicable?,mid_swap_yield_forward_effect_required,boolean
+Early Redemption for Tax Minimum Notice Period (days),early_redemption_tax_min_notice,integer
+Early Redemption for Tax Minimum Notice Period (days),early_redemption_tax_max_notice,integer
+Investor Put Maximum Notice Period (days),investor_put_notice_period_max,integer
+Taps Original Base Prospectus Supplement Dates,taps_original_supplement_dates,date_list
+Clean Up Call Maximum Notice Period (days),clean_up_call_notice_period_max,integer
+Step-up/Step-down Rating Change Applicable?,step_up_down_rating_change_required,boolean
+Clean Up Call Optional Redemption Amount,clean_up_call_optional_redemption_amount,decimal
+Issuer Par Call Minimum Notice Period (days),issuer_call_par_call_notice_period_min,integer
+Issuer Par Call Maximum Notice Period (days),issuer_call_par_call_notice_period_max,integer
+Investor Put Optional Redemption Dates,investor_put_optional_redemption_dates,text
+Clean Up Call Minimum Notice Period (days),clean_up_call_notice_period_min,integer
+Early Redemption Display Calculated Amount?,early_redemption_calculated_amount_description_required,boolean
+Investor Put Minimum Notice Period (days),investor_put_notice_period_min,integer
+Step-up/Step-down Rating Change Margin,step_up_down_rating_change_margin,decimal
+Change of Control Put Optional Redemption Amount,change_of_control_put_optional_redemption_amount,decimal
+Investor Put Optional Redemption Amount,investor_put_optional_redemption_amount,decimal
+Special Redemption Event Call Maximum Notice Period (days),special_redemption_event_call_notice_period_max,integer
+Special Redemption Event Call Minimum Notice Period (days),special_redemption_event_call_notice_period_min,integer
+Special Redemption Event Call Period,special_redemption_event_call_period,text
+Special Redemption Event Call Basis of the Call,special_redemption_event_call_basis,char
+Special Redemption Event Call Target,special_redemption_event_call_target,text
+Special Redemption Event Call Longstop Date,special_redemption_event_call_longstop_date,text
+Special Redemption Event Call Amount,special_redemption_event_call_amount,text
+Early Redemption for Tax Minimum Notice Period (days),early_redemption_tax_notice_period_min,integer
+Early Redemption for Tax Maximum Notice Period (days),early_redemption_tax_notice_period_max,integer
